@@ -39,7 +39,7 @@ function Navbar() {
               smooth={true}
               duration={1000}
               to="headerbg"
-              style={{ cursor: "pointer", color: "#264e49", fontWeight: "700" }}
+              style={{ cursor: "pointer", color: "#db3716", fontWeight: "700" }}
             >
               Agro Company
             </Link>
@@ -52,7 +52,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={1000}
-                to="headerbg"
+                to="/"
               >
                 Home
               </Link>

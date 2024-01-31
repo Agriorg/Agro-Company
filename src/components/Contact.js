@@ -1,6 +1,19 @@
+import bg from "../img/formbg.png"
 function Contact() {
+  const containerStyle = {
+    backgroundImage: `url(${bg})`,
+    backgroundSize: 'fit-contentr', // Adjust as needed
+    backgroundPosition: 'center', // Adjust as needed
+    zIndex: '10',
+    height: '50rem', // Adjust as needed
+    // outerWidth:'40rem'
+  };
+
   return (
-    <div className="container contact">
+    // <div>
+
+    // <img src={bg} style={{zIndex:'10', height:'10rem'}} />
+    <div className="container contact"  style={containerStyle}>
       <h2 className="main-title text-center">CONTACT</h2>
       <div className="col-md-12">
         <div className="row">
@@ -36,6 +49,7 @@ function Contact() {
         </div>
       </div>
     </div>
+    // </div>
   );
 }
 export default Contact;

@@ -1,13 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 body {
   overflow: auto;
   margin: 0;
   padding: 0;
-  /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif; */
-    font-family: "Josefin Sans", sans-serif;
+    font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -16,6 +13,7 @@ body {
 }
 
 code {
+
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
@@ -25,7 +23,7 @@ code {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #264e49;
+  background: #db3716;
 }
 
 ::-webkit-scrollbar-track {
@@ -37,11 +35,14 @@ code {
 .container {
   width: auto;
   max-width: 1300px;
-  /* background-color: #e3e566; */
   padding-right: var(--bs-gutter-x,.75rem);
   padding-left: var(--bs-gutter-x,.75rem);
   margin-right: auto;
   margin-left: auto;
+}
+.contact{
+  background-image: '../img/formbg.png';
+  background-size: cover;
 }
 .contact .row {
   width: 100%;
@@ -104,16 +105,16 @@ code {
 }
 /* Navbar */
 .navopened {
-  background-color: #558257!important;
+  background-color: #E9BBAB!important;
 }
 .navopened .logo {
   color: #fafafa!important;
 }
 .navopened ul li a {
-  color: #264e49!important;
+  color: #db3716!important;
 }
 .navopened .burger {
-  background-color: #558257!important;
+  background-color: #E9BBAB!important;
 }
 .navbar {
   transition: background-color 0.4s;
@@ -121,16 +122,16 @@ code {
   top: 0;
   width: 100% ;
   padding: 0.5rem;
-  background-color: transparent;
+  background-color: #e9bbab;
   z-index: 2;
-  backdrop-filter: blur(2px);
+  /* backdrop-filter: blur(2px); */
 }
 .navbar .logo {
   transition: all 0.2s;
 
   align-items: center;
   align-content: center;
-  color: #264e49;
+  color: #db3716;
   letter-spacing: 2px;
   font-weight: 400;
   margin: 0;
@@ -140,7 +141,7 @@ code {
 .navbar ul { 
   transition: all 0.2s;
 
-  margin-left: 17rem;
+  margin-left: 33rem;
   list-style: none;
 }
 .navbar ul li {
@@ -153,7 +154,7 @@ code {
   cursor: pointer;
 
   text-decoration: none;
-  color: #264e49;
+  color: #db3716;
   font-weight: 700;
 
 }
@@ -172,7 +173,7 @@ code {
   margin-bottom: 0.45rem;
   width: 25px;
   height: 3px;
-  background-color: #264e49;
+  background-color: #db3716;
 }
 /* Header */
 .carousel {
@@ -239,7 +240,7 @@ header h1 {
 /* main */
 .main-title {
   font-size: 48px;
-  color: #264e49;
+  color: #db3716;
 }
 .main-p {
   font-size: 22px;
@@ -252,7 +253,7 @@ main {
 }
 /* footer */
 .text-white {
-  color: white;
+  color: #DB3716;
 }
 .footer-top {
   margin: 0;
@@ -266,14 +267,14 @@ main {
   margin-top: 2.5px;
 
   font-size: 18px;
-  color:#919191;
+  color:#DB3716;
 }
 footer {
   width: 100%;
   height: auto;
   margin: 0;
   padding: 1rem 0;
-  background-color:#264e49;
+  background-color:#e9bbab;
 }
 .side1 {
   width: 50%;
@@ -290,19 +291,19 @@ footer .logo {
   margin-bottom: 0;
   align-items: center;
   align-content: center;
-  color: rgb(243, 243, 243);
+  color: #DB3716;
   letter-spacing: 2px;
-  font-weight: 400;
+  font-weight: 700;
 
   font-size: 28px;
 }
 .logo a{
   text-decoration: none;
-  color: #fafafa;
+  color: #DB3716;
   
 }
 .footer-title {
-  color: #fafafa;
+  color: #DB3716;
   font-weight: 600;
   font-size: 22px;
   margin-bottom: 0;
@@ -316,7 +317,7 @@ footer ul {
 }
 footer ul li a {
   text-decoration: none;
-  color: #919191;
+  color: #DB3716;
   font-size: 18px;
   font-weight: 500;
 }
@@ -339,7 +340,7 @@ footer ul li a {
 }
 /* Services */
 .card-title {
-  color: #264e49;
+  color: #db3716;
   font-size: 24px;
 }
 .p-3 {
@@ -357,7 +358,7 @@ footer ul li a {
   border-radius: 10px;
   width: 100%;
   transition: all 0.2s;
-  background-color: #558257;
+  background-color: #E9BBAB;
   box-shadow: 5px 5px 5px 5px #e5e5e5;
 }
 .card:hover {
@@ -387,14 +388,14 @@ ul li a {
 }
 
 .contact-input {
-  color:#264e49;
+  color:#db3716;
   border-radius: 5px;
   padding: 15px 0px 10px 5px;
   font-size: 20px;
   width: 100%;
   outline: 0;
   border: 0;
-  background-color: #a5cf61;
+  background-color: #e9bbab;
 
 }
 .form-btn {
@@ -408,13 +409,13 @@ ul li a {
   width: 100%;
   font-weight: 500;
   z-index: 1;
-  background-color: #558257;
+  background-color: #db3716;
   padding: 10px 50px;
 
   transition: background-color 0.2s;
 }
 .contact-textarea {
-  color:#264e49;
+  color:#db3716;
   border-radius: 5px;
   padding: 15px 0px 10px 5px;
   font-size: 20px;
@@ -427,7 +428,7 @@ ul li a {
 
   outline: 0;
   border: 0;
-  background-color: #a5cf61;
+  background-color: #e9bbab;
 
 }
 
@@ -525,10 +526,10 @@ ul li a {
     color: #fafafa!important;
   }
   .navopened ul li a {
-    color: #264e49!important;
+    color: #db3716!important;
   }
   .navopened .burger {
-    background-color: #264e49!important;
+    background-color: #db3716!important;
   }
   .container {
     width: auto;
@@ -558,7 +559,7 @@ ul li a {
   }
 
   .burger {
-    background-color: #264e49;
+    background-color: #db3716;
   }
   .navbar {
     backdrop-filter: none;
@@ -589,7 +590,7 @@ ul li a {
       cursor: pointer;
     font-size: 20px;
     text-decoration: none;
-    color: #264e49;
+    color: #db3716;
     font-weight: 500;
   
   }

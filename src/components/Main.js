@@ -1,5 +1,6 @@
 
 import About from '../components/About';
+import Vision from './Vision';
 import Services from '../components/Services';
 import Contact from '../components/Contact';
 
@@ -9,7 +10,7 @@ function Main() {
       <main>
         <About />
         <Services />
-        <About />
+        <Vision/>
         <Contact />
       </main>
     </>
