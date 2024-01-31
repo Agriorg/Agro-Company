@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c866255e.css",
+    "main.js": "/static/js/main.1b5c6388.js",
+    "static/media/DeOnion.jpg": "/static/media/DeOnion.b10b3fa9beae7746f634.jpg",
+    "static/media/WholeEgg.jpg": "/static/media/WholeEgg.51b5e098973729e0c34b.jpg",
+    "static/media/EggYolk.jpg": "/static/media/EggYolk.1d9d3dde0a7091a854ab.jpg",
+    "static/media/Albumen.png": "/static/media/Albumen.2dac835c259c546b3ed1.png",
+    "static/media/DeRedO.jpg": "/static/media/DeRedO.317e580eacd871499ff1.jpg",
+    "static/media/OnionOil.jpg": "/static/media/OnionOil.96842e7bd82c031fa9c7.jpg",
+    "static/media/about.avif": "/static/media/about.6469436d3d4fb80f82f4.avif",
+    "static/media/Unripe.jpg": "/static/media/Unripe.0505bb245d3cef89099d.jpg",
+    "static/media/WhiteOnion.webp": "/static/media/WhiteOnion.9d71218e85f5f76ffdb3.webp",
+    "index.html": "/index.html",
+    "main.c866255e.css.map": "/static/css/main.c866255e.css.map",
+    "main.1b5c6388.js.map": "/static/js/main.1b5c6388.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c866255e.css",
+    "static/js/main.1b5c6388.js"
+  ]
+}
