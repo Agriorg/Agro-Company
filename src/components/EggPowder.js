@@ -1,27 +1,24 @@
 import React from 'react'
 import Card from './Card'
-import ban from "../img/bananaa.png"
-import on from "../img/onion.png"
-import egg from "../img/egg.png"
+import eggYolk from "../img/eggYolk.png"
+import Albumen from "../img/Albumen.png"
+import wholeEgg from "../img/wholeegg.png"
 function EggPowder() {
   const productsData = [
     {
-      title: "Egg Powder",
-      img: egg,
+      title: "Whole Egg Powder",
+      img: wholeEgg,
       text: "Egg Albumen powder is specially developed for use in curing, delicatessen, preserves, pasta, batter mixes, fish products (surimi), ham and sausage industries…",
-      // route: '/egg-powder',
     },
     {
-      title: "Banana Powder",
-      img: ban,
+      title: "Egg Yolk Powder",
+      img: eggYolk,
       text: "This powder is developed for use in bakery products (doughnuts), pastry making products, noodles, convenience foods/read meals, glazing, delicatessen, desserts, ice cream, pasta, mayonnaise and dressings…",
-      // route:'/banana-powder',
     },
     {
-      title: "Onion Powder/Oil",
-      img: on,
+      title: "Albumen Powder",
+      img: Albumen,
       text: "Egg Albumen powder is specially developed for use in curing, delicatessen, preserves, pasta, batter mixes, fish products (surimi), ham and sausage industries…",
-      // route:'/onion-powder',
     },
   ];
   const generateProductCards = () => {

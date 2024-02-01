@@ -355,11 +355,11 @@ footer ul li a {
 
 .card {
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 40px;
   width: 100%;
   transition: all 0.2s;
   background-color: #E9BBAB;
-  box-shadow: 5px 5px 5px 5px #e5e5e5;
+  box-shadow: 12px 12px 5px 5px #e5e5e5;
 }
 .card:hover {
   transform:scale(1.03);
@@ -378,7 +378,7 @@ ul li a {
 }
 .card-cover {
   padding: 2rem 0rem;
-  border-radius: 15px;
+  border-radius: 20px;
   height: auto;
   width: 100%;
 }

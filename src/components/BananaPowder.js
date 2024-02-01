@@ -1,20 +1,22 @@
 import React from 'react'
 import Card from './Card';
+import banana from "../img/banana.png"
+import greeenBanana from "../img/gb.png"
 function BananaPowder() {
   const productsData =[
         {
         title: "Banana Powder",
-        // img: Banana,
+        img: banana,
         text: "We manufacture & supply Banana Powder / Green Banana Powder / Unripe Banana powder in large volume for Food Industries, Baby Foods, Pharma Sector & Bakery Industries. It is manufactured by Hot air drying in a dryer and is a very nutritious fruit"
       },
       {
         title: "Green Banana Powder",
-        // img: GreenB,
+        img: greeenBanana,
         text: "We manufacture & supply Banana Powder / Green Banana Powder / Unripe Banana powder in large volume for Food Industries, Baby Foods, Pharma Sector & Bakery Industries. It is manufactured by Hot air drying in a dryer and is a very nutritious fruit"
       },
       {
         title: "Unripe Banana Powder",
-        // img: Unripe,
+        img: greeenBanana,
         text: "We manufacture & supply Banana Powder / Green Banana Powder / Unripe Banana powder in large volume for Food Industries, Baby Foods, Pharma Sector & Bakery Industries. It is manufactured by Hot air drying in a dryer and is a very nutritious fruit"
       },
   ]
