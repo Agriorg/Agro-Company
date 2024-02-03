@@ -19,9 +19,11 @@ function MCard(props) {
           <p className="card-text">
              {props.text}
           </p>
-          <button onClick={() => handleButtonClick(props.route)} className="btn">
+          <div  style={{display:'flex' , justifyContent:'center'}}>
+          <button onClick={() => handleButtonClick(props.route)} className="btn" >
           Learn More
         </button>
+          </div>
         </div>
       </div>
     );

@@ -12,9 +12,7 @@ function About() {
           <div className="col-md-6">
             <h2 className="main-title text-center about-h2">ABOUT</h2>
             <p className="main-p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              quam purus, ullamcorper id risus eu, consectetur consectetur
-              purus. Etiam sagittis in eros ac sollicitudin.
+At Agro Company we aim to provide cheap and affordable agriculture and poultry products to indian audience 
             </p>
           </div>
         </div>

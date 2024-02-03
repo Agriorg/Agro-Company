@@ -12,9 +12,7 @@ function Vision() {
           <div className="col-md-6">
             <h2 className="main-title text-center about-h2">VISION</h2>
             <p className="main-p">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur
-              quam purus, ullamcorper id risus eu, consectetur consectetur
-              purus. Etiam sagittis in eros ac sollicitudin.
+Our aim to to be the largest agro poultry suppplier of india .
             </p>
           </div>
         </div>
