@@ -6,7 +6,10 @@ function MCard(props) {
         navigate(props.route);
       };
     return (
-      <div className="card" style={{ height: "100%", border: "2px solid #db3716" }} >
+     
+
+ 
+      <div className="card mcard" style={{ height: "100%", border: "2px solid #db3716" ,justifyContent:'center',backgroundColor: 'rgba(255, 255, 255, 0.5)'  }} >
         <br />
         
         <div className="text-center">
@@ -26,6 +29,7 @@ function MCard(props) {
           </div>
         </div>
       </div>
+
     );
   }
   export default MCard;
