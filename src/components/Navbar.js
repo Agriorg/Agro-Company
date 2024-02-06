@@ -38,7 +38,7 @@ function Navbar() {
               spy={true}
               smooth={true}
               duration={1000}
-              to="headerbg"
+              to='/'
               style={{ cursor: "pointer", color: "#db3716", fontWeight: "700" }}
             >
               Agro Company

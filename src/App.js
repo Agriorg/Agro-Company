@@ -10,6 +10,7 @@ import OnionPowder from "./components/OnionPowder"
 function App() {
   return (
     <Router>
+      <Navbar/>
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/egg-powder" element={<EggDetail />} />
@@ -17,6 +18,7 @@ function App() {
       <Route path="/onion-powder" element={<OnionDetail />} />
       {/* Add more routes as needed */}
     </Routes>
+    <Footer/>
   </Router>
     // <>
     //   <Navbar />
@@ -28,31 +30,31 @@ function App() {
 }
 const Home = () => (
   <>
-    <Navbar />
+    {/* <Navbar /> */}
     <Header />
     <Main />
-    <Footer />
+    {/* <Footer /> */}
   </>
 );
 const EggDetail = () => (
   <>
-    <Navbar />
+    {/* <Navbar /> */}
     <EggPowder/>
-    <Footer />
+    {/* <Footer /> */}
   </>
 );
 const BananaDetail = () =>(
   <>
-  <Navbar/>
+  {/* <Navbar/> */}
   <BananaPowder/>
-  <Footer/>
+  {/* <Footer/> */}
   </>
 )
 const OnionDetail =() =>(
   <>
-  <Navbar/>
+  {/* <Navbar/> */}
   <OnionPowder/>
-  <Footer/>
+  {/* <Footer/> */}
   </>
 )
 export default App;
