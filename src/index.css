@@ -262,6 +262,8 @@ code {
   margin-left: 133px;
 }
 .headerimg{
+  display: flex;
+  justify-content: center;
   flex: 1;
   /* position: sticky; */
   height: 350px;
