@@ -52,7 +52,7 @@ function Navbar() {
                 spy={true}
                 smooth={true}
                 duration={1000}
-                to="/"
+                to="header"
               >
                 Home
               </Link>
@@ -60,7 +60,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={openBar}
-                activeClass="active"
+                activeClass="active-scroll"
                 to="services"
                 spy={true}
                 smooth={true}
@@ -72,7 +72,7 @@ function Navbar() {
             <li>
               <Link
                 onClick={openBar}
-                to="about-scroll"
+                to="about"
                 spy={true}
                 smooth={true}
                 duration={1000}

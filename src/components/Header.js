@@ -87,6 +87,7 @@ const Header = () => {
       animate={{ opacity: 1, y: 0 }}
       exit={{ opacity: 0, y: -50 }}
       transition={{ duration: 0.5 }}
+      className='header'
     >
       {/* <h2>Welcome to Our Poultry Farm</h2>
       <p>

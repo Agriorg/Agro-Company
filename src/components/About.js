@@ -6,11 +6,11 @@ function About() {
 
       <div className="container about">
         <div className="row"  >
-          <div className="col-md-6 text-center">
-            <img alt="about" src={about} className="img-fluid" style={{borderRadius:"25px"}} />
+          <div className="col-md-6 text-center" style={{backgroundColor:'#aa45ff', }}>
+            {/* <img alt="about" src={about} className="img-fluid" style={{borderRadius:"25px"}} /> */}
           </div>
           <div className="col-md-6">
-            <div  className='customdiv' style={{backgroundColor:'#C1F2B0',borderRadius:'15px'}}>
+            <div  className='customdiv' >
 
             <h2 className="main-title text-center about-h2">ABOUT</h2>
             <p className="main-p">
