@@ -5,6 +5,11 @@ function ProductNav() {
     function navigateToHomepage() {
         window.location.href = "/"; // Redirect to homepage
       }
+      function openBar() {
+        const bar = document.querySelector(".bar");
+    
+        bar.classList.toggle("opened");
+      }
   return (
     <nav className="navbar">
     <div className="container">
@@ -16,10 +21,10 @@ function ProductNav() {
         </h1>
         <ul className="bar">
           <li>
-            <Link to="/" className="nav-link">Home</Link>
+            <Link to="/" className="nav-link" onClick={openBar}>Home</Link>
           </li>
         </ul>
-        <div className="button" onClick={navigateToHomepage}>
+        <div className="button"  onClick={openBar}>
           <div className="burger"></div>
           <div className="burger"></div>
           <div className="burger"></div>
