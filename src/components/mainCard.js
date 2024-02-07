@@ -9,7 +9,7 @@ function MCard(props) {
      
 
  
-      <div className="card mcard" style={{ height: "100%", border: "2px solid #db3716" ,justifyContent:'center',backgroundColor: 'rgba(255, 255, 255, 0.5)'  }} >
+      <div className="card mcard" style={{ height: "100%", border: "2px solid #db3716" ,justifyContent:'center',backgroundColor: 'rgba(255, 255, 255, 0.5)' , }} >
         <br />
         
         <div className="text-center">

@@ -21,10 +21,10 @@ function Services() {
   const navigate = useNavigate();
   const productsData = [
     {
-      title: "Egg Powder",
-      img: egg,
+      title: "Onion Powder/Oil",
+      img: on,
       // text: "Egg Albumen powder is specially developed for use in curing, delicatessen, preserves, pasta, batter mixes, fish products (surimi), ham and sausage industries…",
-      route: '/egg-powder',
+      route:'/onion-powder',
     },
     {
       title: "Banana Powder",
@@ -33,10 +33,10 @@ function Services() {
       route:'/banana-powder',
     },
     {
-      title: "Onion Powder/Oil",
-      img: on,
+      title: "Egg Powder",
+      img: egg,
       // text: "Egg Albumen powder is specially developed for use in curing, delicatessen, preserves, pasta, batter mixes, fish products (surimi), ham and sausage industries…",
-      route:'/onion-powder',
+      route: '/egg-powder',
     },
   ];
   

@@ -1,6 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Route,Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
+import ProductNav from "./components/productNav";
 import Header from "./components/Header";
 import Main from "./components/Main";
 import Footer from "./components/Footer";
@@ -10,7 +11,7 @@ import OnionPowder from "./components/OnionPowder"
 function App() {
   return (
     <Router>
-      <Navbar/>
+      {/* <Navbar/> */}
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/egg-powder" element={<EggDetail />} />
@@ -18,7 +19,7 @@ function App() {
       <Route path="/onion-powder" element={<OnionDetail />} />
       {/* Add more routes as needed */}
     </Routes>
-    <Footer/>
+    {/* <Footer/> */}
   </Router>
     // <>
     //   <Navbar />
@@ -30,31 +31,31 @@ function App() {
 }
 const Home = () => (
   <>
-    {/* <Navbar /> */}
+    <Navbar />
     <Header />
     <Main />
-    {/* <Footer /> */}
+    <Footer />
   </>
 );
 const EggDetail = () => (
   <>
-    {/* <Navbar /> */}
+    <ProductNav/>
     <EggPowder/>
-    {/* <Footer /> */}
+    <Footer />
   </>
 );
 const BananaDetail = () =>(
   <>
-  {/* <Navbar/> */}
+  <ProductNav/>
   <BananaPowder/>
-  {/* <Footer/> */}
+  <Footer/>
   </>
 )
 const OnionDetail =() =>(
   <>
-  {/* <Navbar/> */}
+  <ProductNav/>
   <OnionPowder/>
-  {/* <Footer/> */}
+  <Footer/>
   </>
 )
 export default App;

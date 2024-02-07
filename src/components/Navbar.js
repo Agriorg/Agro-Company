@@ -41,7 +41,7 @@ function Navbar() {
               to='/'
               style={{ cursor: "pointer", color: "#db3716", fontWeight: "700" }}
             >
-              Agro Company
+              Agri Earth Exports
             </Link>
           </h1>
           <ul className="bar">
