@@ -7,9 +7,9 @@ function WCard(props) {
     //     navigate(props.route);
     //   };
     return (
-            <div  className =' mcard'style={{display:'flex' , alignItems:'center',padding:'20px',width:'20rem',height:'100px', marginLeft:'30px', marginTop:'25px',backgroundColor: 'rgba(255, 255, 255, 0.5)'}}>
+            <div  className =' wcard'>
                 <div className="text-center">
-                    <img alt="card-img" src={props.img} className="text-center img-fluid"   style={{ height: "40px",width:'70px', borderRadius: "20px" }} />
+                    <img alt="card-img" src={props.img} className="text-center img-fluid"   style={{ height: "40px",width:'90px', borderRadius: "20px" }} />
                  </div>
                 <div style={{display:'flex',flexDirection:'column'}}>
                    {/* <div className="text-center">

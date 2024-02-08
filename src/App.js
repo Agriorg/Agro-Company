@@ -8,27 +8,27 @@ import Footer from "./components/Footer";
 import BananaPowder from "./components/BananaPowder";
 import EggPowder from "./components/EggPowder"
 import OnionPowder from "./components/OnionPowder"
+import Aboutmore from "./components/Aboutmore";
 function App() {
   return (
     <Router>
-      {/* <Navbar/> */}
     <Routes>
       <Route path="/" element={<Home />} />
       <Route path="/egg-powder" element={<EggDetail />} />
       <Route path="/banana-powder" element={<BananaDetail />} />
       <Route path="/onion-powder" element={<OnionDetail />} />
-      {/* Add more routes as needed */}
+      <Route path="/about" element={<Aboutm/>} />
     </Routes>
-    {/* <Footer/> */}
   </Router>
-    // <>
-    //   <Navbar />
-    //   <Header />
-    //   <Main />
-    //   <Footer />
-    // </>
   );
 }
+const Aboutm = () => (
+  <>
+    <ProductNav />
+    <Aboutmore />
+    {/* <Footer /> */}
+  </>
+);
 const Home = () => (
   <>
     <Navbar />

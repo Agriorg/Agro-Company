@@ -18,7 +18,7 @@ function Why() {
     {
       title:'hljh',
       img: relation,
-      text: 'kjkj',
+      text: 'We believes in having a healthy and long term relationship with its suppliers ',
     },
   ]
   const generateWhyCards = () => {

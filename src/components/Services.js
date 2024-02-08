@@ -47,33 +47,6 @@ function Services() {
     navigate(route);
   };
 
-
-  // const generateProductCards = () => {
-  //   const rows = [];
-  //   for (let i = 0; i < productsData.length; i += 3) {
-  //     const row = (
-  //       <div key={i / 3} className="row">
-  //         {productsData.slice(i, i + 3).map((product, index) => (
-  //           <div key={index} className=" col-md-4 mb-2">
-  //             <Card title={product.title} img={product.img} text={product.text} route={product.route} />
-  //           </div>
-  //         ))}
-  //       </div>
-  //     );
-  //     rows.push(row);
-  //   }
-  //   return rows;
-  // };
-  // const generateProductCards = () => {
-  //   return productsData.map((product, index) => (
-  //     <div className="row">
-
-  //     <div key={index} className="col-md-4 mb-2" onClick={() => handleCardClick(product.route)}>
-  //       <Card title={product.title} img={product.img} text={product.text} route={product.route} />
-  //     </div>
-  //     </div>
-  //   ));
-  // };
   const generateProductCards = () => {
     return (
       <div className="row">

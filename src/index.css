@@ -35,7 +35,7 @@ code {
 .container {
   /* height: auto; */
   width: auto;
-  max-width: 1300px;
+  max-width: 1400px;
   padding-right: var(--bs-gutter-x,.75rem);
   padding-left: var(--bs-gutter-x,.75rem);
   margin-right: auto;
@@ -52,6 +52,8 @@ code {
   /* background-position: center -100px;
   -webkit-filter: blur(7px); */
   display: flex;
+  align-items: center;
+  justify-content: center;
   z-index: 1;
 }
 .img-fluid {
@@ -299,10 +301,24 @@ code {
 }
 main {
   justify-content: center;
-  max-height: 3000px;
+  /* max-height: 3000px; */
   padding: 3rem 0;
   background-color: #fafafa;
   width: 100%;
+}
+.why{
+  margin-top: 230px;
+  height: auto;
+}
+.wcard{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+  width: 21rem;
+  height: 100px;
+  margin-left: 25px;
+  margin-top: 25px;
+  background-color: #ffffff80;
 }
 /* footer */
 .text-white {
@@ -434,8 +450,24 @@ ul li a {
   cursor: pointer;
 }
 /* About */
+.customdiv{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgb(139, 139, 139,0.5);
+  margin-top: 13rem;
+  height: 20rem;
+  border-radius: 12px;
+}
 .about {
   margin-bottom: 15rem;
+  background-image: url('../src/img/farmland.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; 
+
 }
 .fade-in {
   opacity: 0;
@@ -656,6 +688,7 @@ ul li a {
   }
   .headbtn{
     width: 200px;
+    cursor: pointer;
     margin-left: 0;
   }
   .headerimg {
@@ -673,8 +706,13 @@ ul li a {
 
   }
   .mcard{
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
+.wcard{
+  margin-right: 25px;
+  width: auto;
+}
+
   .container {
       max-width: 540px; 
   }
