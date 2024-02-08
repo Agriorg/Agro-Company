@@ -147,7 +147,7 @@ function About() {
         className="about-scroll"
       ></div>
 
-      <div className="container about">
+      <div className="container about" >
         <div className="row">
           <div className="col-md-6 text-center">
             <img

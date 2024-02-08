@@ -33,6 +33,7 @@ code {
   opacity: 1!important;
 }
 .container {
+  /* height: auto; */
   width: auto;
   max-width: 1300px;
   padding-right: var(--bs-gutter-x,.75rem);
@@ -289,7 +290,7 @@ code {
 }
 /* main */
 .main-title {
-  font-size: 48px;
+  font-size: 24px;
   color: #db3716;
 }
 .main-p {
@@ -297,6 +298,8 @@ code {
   font-weight: 500;
 }
 main {
+  justify-content: center;
+  max-height: 3000px;
   padding: 3rem 0;
   background-color: #fafafa;
   width: 100%;
@@ -391,15 +394,16 @@ footer ul li a {
 /* Services */
 .card-title {
   color: #db3716;
-  font-size: 24px;
+  font-size: 18px;
+  font-weight: 400;
 }
 .p-3 {
   padding: 0.2rem 1rem;
 }
 .card-text {
   padding: 0rem 0rem 1rem 0rem;
-  font-weight: 500;
-  font-size: 18px;
+  font-weight: 300;
+  font-size: 15px;
 
 }
 
@@ -408,7 +412,7 @@ footer ul li a {
   border-radius: 10px 10px 5px 5px;
   width: 100%;
   transition: all 0.2s;
-  background-color: #FFB534;
+  /* background-color: #FFB534; */
   /* box-shadow: 12px 12px 5px 5px #e5e5e5; */
 
 }
@@ -423,7 +427,7 @@ footer ul li a {
 
 .services .col-md-4 {
   margin: 1rem 1rem 1rem 1rem;
-
+  /* background-color: #000000; */
 
 }
 ul li a {
@@ -449,6 +453,7 @@ ul li a {
 
 .card-cover {
   padding: 2rem 0rem;
+  background-color: #f0f0f0;
   /* opacity: 0.5; */
   border-radius: 20px;
   height: auto;

@@ -35,7 +35,7 @@ function EggPowder() {
 
   return (
         <div className="container services">
-      <h2 className="main-title text-center" style={{marginTop:'10rem'}}>EGG POWDER</h2>
+      <h2 className="main-title text-center" style={{marginTop:'10rem',fontSize:'24px',fontWeight:'500'}}>EGG POWDER</h2>
       <div className="card-cover">
         <div className="col-md-12 ">
           {generateProductCards()}

@@ -14,28 +14,31 @@ import { useNavigate } from "react-router-dom";
 // import Unripe from "../img/Unripe.jpg"
 // import Whiteo from "../img/WhiteOnion.webp"
 // import WholeE from "../img/WholeEgg.jpg"
-import ban from "../img/bananaa.png"
+// import ban from "../img/bananaa.png"
+// import on from "../img/onion.png"
+// import egg from "../img/egg.png"
+import egg from "../img/nest.png"
 import on from "../img/onion.png"
-import egg from "../img/egg.png"
+import ban from "../img/bananas.png"
 function Services() {
   const navigate = useNavigate();
   const productsData = [
     {
       title: "Onion Powder/Oil",
       img: on,
-      // text: "Egg Albumen powder is specially developed for use in curing, delicatessen, preserves, pasta, batter mixes, fish products (surimi), ham and sausage industries…",
+      text: "Agri Earth Exports offers top-quality onion powder: convenient, flavorful, enhances any dish effortlessly.",
       route:'/onion-powder',
     },
     {
       title: "Banana Powder",
       img: ban,
-      // text: "This powder is developed for use in bakery products (doughnuts), pastry making products, noodles, convenience foods/read meals, glazing, delicatessen, desserts, ice cream, pasta, mayonnaise and dressings…",
+      text: "Elevate your menu with our premium banana powder—a versatile ingredient for culinary innovation.",
       route:'/banana-powder',
     },
     {
       title: "Egg Powder",
       img: egg,
-      // text: "Egg Albumen powder is specially developed for use in curing, delicatessen, preserves, pasta, batter mixes, fish products (surimi), ham and sausage industries…",
+      text: "Explore superior egg powder: a convenient, nutritious addition for cooking and baking adventures.",
       route: '/egg-powder',
     },
   ];
@@ -87,13 +90,13 @@ function Services() {
 
   return (
     <div className="container services">
-      <h2 className="main-title text-center">OUR PRODUCTS</h2>
-      <div className="bg-img">     
+      <h2 className="main-title text-center" >OUR PRODUCTS</h2>
+      {/* <div className="bg-img">      */}
       <div className="card-cover">
         <div className="col-md-12 ">
           {generateProductCards()}
         </div>
-      </div>
+      {/* </div> */}
        </div>
     </div>
   );
