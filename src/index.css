@@ -565,7 +565,8 @@ ul li a {
   border-radius: 5px;
   text-decoration: none;
   color: #125c13;
-  width: 15%;
+  width: 40%;
+  margin-bottom: 25px;
   font-weight: 500;
   z-index: 1;
   background-color: #e8e1d9;
@@ -579,8 +580,8 @@ ul li a {
   border: 2px solid #8b8b8b;
   padding: 15px 0px 10px 5px;
   font-size: 20px;
-  width: 40%!important;
-  min-width: 41.5%!important;
+  width: 50%!important;
+  min-width: 90%!important;
   max-width: 100%!important;
   height: 300px;
   min-height: 300px;
