@@ -550,12 +550,18 @@ ul li a {
   color:#125c13;
   border-radius: 5px;
   padding: 15px 0px 10px 5px;
-  font-size: 20px;
+  font-size: 15px;
   width: 10rem;
   outline: 0;
   border: 2px solid #8b8b8b;
   /* background-color: #FFB534; */
 
+}
+.contact-textarea::placeholder,
+.contact-input::placeholder{
+  font-weight: 0;
+  font-size: 15px;
+  opacity: 0.5;
 }
 .form-btn {
   border: 0;
@@ -579,18 +585,14 @@ ul li a {
   border-radius: 5px;
   border: 2px solid #8b8b8b;
   padding: 15px 0px 10px 5px;
-  font-size: 20px;
+  font-size: 18px;
   width: 50%!important;
   min-width: 90%!important;
   max-width: 100%!important;
   height: 300px;
   min-height: 300px;
   max-height: 600px;
-
   outline: 0;
-  /* border: 0; */
-  /* background-color: #FFB534; */
-
 }
 
 @media (max-width: 1300px) {
