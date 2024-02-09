@@ -9,6 +9,7 @@ import BananaPowder from "./components/BananaPowder";
 import EggPowder from "./components/EggPowder"
 import OnionPowder from "./components/OnionPowder"
 import Aboutmore from "./components/Aboutmore";
+import Contact from "./components/Contact";
 function App() {
   return (
     <Router>
@@ -18,6 +19,7 @@ function App() {
       <Route path="/banana-powder" element={<BananaDetail />} />
       <Route path="/onion-powder" element={<OnionDetail />} />
       <Route path="/about" element={<Aboutm/>} />
+      <Route path="/contact" element={<Contact/>} />
     </Routes>
   </Router>
   );
@@ -26,7 +28,7 @@ const Aboutm = () => (
   <>
     <ProductNav />
     <Aboutmore />
-    {/* <Footer /> */}
+    <Footer />
   </>
 );
 const Home = () => (

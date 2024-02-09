@@ -1,22 +1,25 @@
 import bg from "../img/formbg.png"
+import Footer from "./Footer";
+import ProductNav from "./productNav";
 function Contact() {
   const containerStyle = {
-    backgroundImage: `url(${bg})`,
-    backgroundSize: 'fit-contentr', // Adjust as needed
-    backgroundPosition: 'center', // Adjust as needed
     zIndex: '10',
-    height: '50rem', // Adjust as needed
+    height: '50rem',
+    paddingTop:'150px' // Adjust as needed
     // outerWidth:'40rem'
   };
 
   return (
-    // <div>
-
-    // <img src={bg} style={{zIndex:'10', height:'10rem'}} />
+<>
+<ProductNav/>
     <div className="container contact"  style={containerStyle}>
-      <h2 className="main-title text-center">CONTACT</h2>
+      <h2 className="main-title ">CONTACT</h2>
+      <div>
+        <img src={bg} style={{height:'100px'}} />
+
+
       <div className="col-md-12">
-        <div className="row">
+        <div className="row" style={{width:'40%',}}>
           <div className="col-md-4 mb-1">
             <input name="name" placeholder="Name" className="contact-input" />
           </div>
@@ -48,8 +51,10 @@ function Contact() {
           <input className="form-btn" type="submit" value="Send Message" />
         </div>
       </div>
+      </div>
     </div>
-    // </div>
+    <Footer/>
+    </>
   );
 }
 export default Contact;

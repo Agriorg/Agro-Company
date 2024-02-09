@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import React from 'react'
-
+import logo from "../img/logo.png"
 function ProductNav() {
     function navigateToHomepage() {
         window.location.href = "/"; // Redirect to homepage
@@ -13,12 +13,13 @@ function ProductNav() {
   return (
     <nav className="navbar">
     <div className="container">
-      <div className="row">
-        <h1 className="logo">
+      <div className="row" style={{height:'90px'}}>
+        {/* <h1 className="logo">
           <Link to="/" style={{ cursor: "pointer", color: "#db3716", fontWeight: "700" }}>
             Agro Company
           </Link>
-        </h1>
+        </h1> */}
+        <img src={logo} className="logoimg" />
         <ul className="bar">
           <li>
             <Link to="/" className="nav-link" onClick={openBar}>Home</Link>

@@ -2,8 +2,10 @@
 import About from '../components/About';
 import Vision from './Vision';
 import Services from '../components/Services';
-import Contact from '../components/Contact';
+// import Contact from '../components/Contact';
+import Reachout from './Reachout';
 import Why from './Why';
+import Certificate from './Certificate';
 function Main() {
   return (
     <>
@@ -12,7 +14,9 @@ function Main() {
         <Services />
         <Why/>
         <Vision/>
-        <Contact />
+        <Reachout/>
+        <Certificate/>
+        {/* <Contact /> */}
       </main>
     </>
   );

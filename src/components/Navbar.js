@@ -1,5 +1,5 @@
 import { Link } from "react-scroll";
-
+import logo from "../img/logo.png"
 function Navbar() {
   document.addEventListener("scroll", function (e) {
     if (window.screen.width < 768 && window.scrollY > 690) {
@@ -32,18 +32,19 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="container">
-        <div className="row">
-          <h1 className="logo">
-            <Link
+        <div className="row" style={{height:'6rem'}}>
+          {/* <h1 className="logo"> */}
+            {/* <Link
               spy={true}
               smooth={true}
               duration={1000}
               to='/'
               style={{ cursor: "pointer", color: "#db3716", fontWeight: "700" }}
-            >
-              Agri Earth Exports
-            </Link>
-          </h1>
+            > */}
+              <img src={logo} className="logoimg" />
+              {/* Agri Earth Exports */}
+            {/* </Link> */}
+          {/* </h1> */}
           <ul className="bar">
             <li>
               <Link
@@ -55,18 +56,6 @@ function Navbar() {
                 to="header"
               >
                 Home
-              </Link>
-            </li>
-            <li>
-              <Link
-                onClick={openBar}
-                activeClass="active-scroll"
-                to="services"
-                spy={true}
-                smooth={true}
-                duration={1000}
-              >
-                Our Product
               </Link>
             </li>
             <li>
@@ -84,7 +73,19 @@ function Navbar() {
             <li>
               <Link
                 onClick={openBar}
-                to="contact"
+                activeClass="active-scroll"
+                to="services"
+                spy={true}
+                smooth={true}
+                duration={1000}
+              >
+                Our Product
+              </Link>
+            </li>
+            <li>
+              <Link
+                onClick={openBar}
+                to="enquiry"
                 spy={true}
                 smooth={true}
                 duration={1000}

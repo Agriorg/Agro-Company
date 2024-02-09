@@ -1,16 +1,17 @@
 import { Link, animateScroll as scroll } from 'react-scroll'
-
+import logo from "../img/logo.png"
 function Footer() {
 
 
   return (
     <footer>
-      <div className="container">
-        <div className="row">
+      <div className="container footer">
+        <div className="row" style={{height:'3rem'}}>
           <div className="side1">
-            <div className="row">
-              <div className="col-md-3">
-                <h1 className="logo">Agro Company</h1>
+            <div className="row" style={{alignItems:'flex-end'}}>
+              <div className="col-md-3" >
+                {/* <h1 className="logo">Agro Company</h1> */}
+                <img src={logo}  className='logoimg' style={{marginTop:'0',height:'180px'}} />
                 <p className="footer-text">
                   {/* Lorem ipsum Here are thriteen health benefits of apples Lorem */}
         
@@ -31,17 +32,17 @@ function Footer() {
                   <Link to="services" spy={true} smooth={true} duration={1000} > Services </Link>
                   </li>
                   <li>
-                  <Link to="about-scroll" spy={true} smooth={true} duration={1000}>About Us  </Link>
+                  <Link to="about" spy={true} smooth={true} duration={1000}>About Us  </Link>
                   </li>
                   <li>
-                  <Link to="contact" spy={true} smooth={true} duration={1000}> Contact  </Link>
+                  <Link to="enquiry" spy={true} smooth={true} duration={1000}> Contact  </Link>
                   </li>
                 </ul>
               </div>
             </div>
           </div>
           <div className="side2">
-            <div className="row">
+            <div className="row" style={{height:'13rem'}}>
               <div className="col-md-3">
                 <p className="footer-title">Contact</p>
                 <ul>
