@@ -7,22 +7,19 @@ function WCard(props) {
     //     navigate(props.route);
     //   };
     return (
-            <div  className =' wcard'>
+            <div  className =' wcard mcard' style={{justifyContent:'center'}}>
+                <br/>
                 <div className="text-center">
                     <img alt="card-img" src={props.img} className="text-center img-fluid"   style={{ height: "40px",width:'90px', borderRadius: "20px" }} />
                  </div>
-                <div style={{display:'flex',flexDirection:'column'}}>
-                   {/* <div className="text-center">
-                    <h3 className="card-title" style={{fontSize:'18px',fontWeight:'400'}}>{props.title}</h3>
-                    </div> */}
+                {/* <div style={{display:'flex',flexDirection:'column'}}> */}
                     <div className="p-3">
-                        <p className="card-text" style={{fontSize:'15px',color:'#8b8b8b',fontWeight:'300'}} >
+                        <p className="card-text">
                             {props.text}
                         </p>
                     </div>
-
                 </div>
-            </div>
+            // </div>
 
  
         

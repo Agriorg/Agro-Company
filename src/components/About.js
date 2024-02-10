@@ -34,7 +34,7 @@ function About() {
               <h2 className="main-title text-center about-h2" style={{color:'#e8e1d9',fontSize:'48px',fontWeight:'400',margin:'0'}}>
                 About Us
               </h2>
-                <p >
+                <p className="aboutp" >
                   Agri Earth Exports PVT LTD connects rural Indian farmers directly to consumers, eliminating middlemen exploitation. We prioritize top-quality agriculture products, adhering to global standards.
                    Founded in 2023, we operate from Maharashtra, leveraging expertise spanning over five decades in agriculture technology. 
                    Our commitment to maintaining robust supplier relationships ensures uncompromising quality. 

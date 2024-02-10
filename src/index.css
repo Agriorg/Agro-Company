@@ -459,6 +459,8 @@ footer ul li a {
   padding: 0rem 0rem 1rem 0rem;
   font-weight: 300;
   font-size: 15px;
+  color: #8b8b8b;
+  font-weight: 300;
 
 }
 
@@ -667,7 +669,10 @@ width: 17.5rem;
     padding: 32px;
   }
   .customdiv2{
-
+    margin-top: 230px;
+  }
+  .about p{
+    width: auto;
   }
 }
 
@@ -690,6 +695,58 @@ width: 17.5rem;
 .customdiv2{
   margin-top: 12rem;
 }
+}
+@media (max-width:1024px) {
+  .wrow{
+    width: 60rem;
+  }
+  .wcard{
+    /* padding-right: 30px; */
+    flex-wrap: wrap;
+    align-items: center;
+    width: 11rem;
+    margin-top:25px;
+    margin-left: 0;
+    margin-right: 30px;
+    height: 100px;
+    align-content: normal;
+  }
+  .card-text{
+    font-size: 11px;
+  }
+  .card-cover{
+    padding: 32px 20px;
+  }
+  .headertext{
+    padding-bottom: 40px;
+  }
+  .header{
+    margin-top: 5rem;
+    height: 40rem;
+    /* flex-direction: row; */
+    flex-wrap: nowrap;
+  }
+  .headertext h1{
+    margin-left: 30px;
+  }
+  .headertext p{
+    margin-left: 38px;
+    justify-content: flex-start;
+  }
+  .headbtn{
+    margin-left: 38px;
+  }
+  .customdiv{
+    margin-top: 1.5rem;
+  }
+  .customdiv p{
+    font-size: 17px;
+  }
+  .navbar ul{
+    width: 30rem;
+    margin: 0;
+  }
+  
 }
 
 @media (max-width: 992px) {
