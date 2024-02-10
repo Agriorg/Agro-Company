@@ -14,7 +14,9 @@ function ProductNav() {
     <nav className="navbar">
     <div className="container">
       <div className="row" style={{height:'6rem',marginTop:'7px'}}>
+        <Link to='/'>
         <img src={logo} className="logoimg" />
+        </Link>
         <ul className="bar">
           <li>
             <Link to="/" className="nav-link" onClick={openBar}>Home</Link>

@@ -1,20 +1,26 @@
 import right from "../img/right.png"
+import { useNavigate } from "react-router-dom";
 function Vision() {
+  const navigate = useNavigate();
+
+  const handleButtonClick = () => {
+    navigate('/mission-vision');
+  };
   return (
     <>
 
-      <div className="container about" style={{marginTop:'120px',marginBottom:'80px'}}>
+      <div className=" about" >
         <div className="row" style={{justifyContent:'center'}}>
-          <div className="col-md-6" style={{borderRadius:'15px'}}>
-            <div className="customdiv">
-            <h2 className="main-title text-center about-h2">VISION</h2>
-            <p className="main-p">
-Our aim to to be the largest agro poultry suppplier of india .
-            </p>
-            <div style={{ display: "flex", alignItems: "center", height: "25px", marginBottom: "5px", cursor: "pointer" }}>
-                <a href="/mission-vision" style={{ display: "flex", alignItems: "center", paddingBottom: "30px", textDecoration: "none",color:'#e8e1d9' }}>Learn More
-                  <img src={right} style={{ height: "15px", marginLeft: "6px" }} alt="Right Arrow" />
-                </a>
+          <div className="col-md-6" >
+            <div className="customdiv2">
+            <h2 className="main-title text-center about-h2" style={{color:'#e8e1d9',fontSize:'48px',fontWeight:'400',margin:'0'}}>VISION</h2>
+            <p >
+            To become the unrivaled global leader in agricultural excellence, 
+            setting new standards for quality, innovation, and sustainability, while fostering positive change 
+            in communities worldwide.
+                </p>
+            <div style={{ display: "flex", alignItems: "center", height: "25px", marginBottom: "25px", cursor: "pointer" }}>
+                <button onClick={handleButtonClick} className="vbtn">Learn More</button>
               </div>
           </div>
             </div>

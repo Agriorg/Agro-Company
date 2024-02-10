@@ -311,10 +311,7 @@ code {
   font-size: 24px;
   color: #125c13;
 }
-.main-p {
-  font-size: 22px;
-  font-weight: 500;
-}
+
 main {
   justify-content: center;
   /* max-height: 3000px; */
@@ -490,6 +487,17 @@ ul li a {
   height: 37.88rem;
   border-radius: 20px;
 }
+.customdiv2{
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1D291DC2;;
+  margin-top: 11rem;
+  height: 25rem;
+  border-radius: 20px;
+}
 .abtn{
   font-size: 20px;
   display: flex;
@@ -503,6 +511,20 @@ ul li a {
   background-color: #9dc812;
   cursor: pointer;
 }
+.vbtn{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #125c13;
+  width: 230px;
+  height: 51px;
+  border-radius: 13px;
+  border: 0;
+  background-color: #9dc812;
+  cursor: pointer;
+}
+
 .about {
   margin-bottom: 15rem;
   background-image: url('../src/img/field.png');
