@@ -775,16 +775,40 @@ width: 17.5rem;
 
 @media (max-width: 768px) { 
   .header {
-    margin-top: 7rem;
+    /* margin-top: 10rem; */
+    height: auto;
     flex-direction: column-reverse;
     /* flex-direction: column; */
     text-align: center;
     font-size: 20px!important;
   }
+ .wrow{
+  width: auto;
+ }
+ .card-cover{
+  padding-left: 8px;
+ }
+ .wcard{
+  margin-right: 10px;
+ }
 
   .headerimg ,
   .headertext{
     width: 100%;
+  }
+  .headertext{
+    width: auto;
+    margin-left: 0px;
+  }
+  .headertext h1{
+    margin-left: 0;
+  }
+  .headertext p{
+    justify-content: flex-end;
+    margin-left: 50px;
+  }
+  .headbtn{
+    margin-left: auto;
   }
 
   .container {
@@ -795,7 +819,7 @@ width: 17.5rem;
     list-style: none;
   }
   .col-md-4 {
-    width: 55.9%!important;
+    width: 30%!important;
   }
 
 }
