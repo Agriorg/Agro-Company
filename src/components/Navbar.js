@@ -32,7 +32,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="container">
-        <div className="row" style={{height:'6rem',marginTop:'7px'}}>
+        <div className="row" style={{height:'4rem'}}>
           {/* <h1 className="logo"> */}
             {/* <Link
               spy={true}

@@ -13,7 +13,7 @@ function ProductNav() {
   return (
     <nav className="navbar">
     <div className="container">
-      <div className="row" style={{height:'6rem',marginTop:'7px'}}>
+      <div className="row" style={{height:'4rem'}}>
         <Link to='/'>
         <img src={logo} className="logoimg" />
         </Link>
