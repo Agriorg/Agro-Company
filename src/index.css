@@ -273,6 +273,9 @@ code {
   /* padding-left: 25px; */
 }
 .headbtn{
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
   width: 270px;
   height: 53px;
@@ -808,9 +811,33 @@ width: 17.5rem;
     margin-left: 50px;
   }
   .headbtn{
-    margin-left: auto;
+    margin-left: 160px;
   }
-
+  .customdiv2{
+    margin-top: 11rem;
+    height: fit-content;
+  }
+  .customdiv2 p{
+    font-size: 15px;
+    height: auto;
+    line-height: normal;
+  }
+  .customdiv{
+    margin-top: 80px;
+    height: 30rem;
+  }
+  .customdiv p{
+    font-size: 15px;
+    height: auto;
+    line-height: normal;
+  }
+  .cimg{
+    margin: 30px 30px 0 30px;
+  }
+  .footer .logoimg{
+    height:40px;
+    width: auto;
+  }
   .container {
     max-width: 720px;
   }
