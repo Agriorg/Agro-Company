@@ -20,7 +20,7 @@ function Aboutmore() {
   // }, []);
   return (
     <>
-      <img src={leaves} alt='leaves' style={{marginTop:'80px', backgroundPosition:'center',backgroundSize:'cover',backgroundRepeat:'no-repeat', height:'500px',width:'100%'}} />
+      <img src={leaves} alt='leaves' className='abtimg'/>
     <div className='container' style={{padding:'50px',marginLeft:'30px'}}>
       <div>
       <h2 className='main-title text-center'>About Company</h2>
@@ -45,7 +45,7 @@ function Aboutmore() {
       water testing and levels, and soil testings.
       </p>
       </div>
-      <div className='customdiv' style={{marginTop:'5rem'}}>
+      <div className='customdiv3' style={{marginTop:'5rem'}}>
       <h2 className='main-title text-center'>What  We Do?</h2>
                     <ul   className ={`${isVisible ?  'fade-in' : ''}`}   ref={aboutRef}>
                 <li>

@@ -34,7 +34,7 @@ function Why() {
     );
   };
   return (
-    <div className='container why'>
+    <div className='why'>
       <h2 className='main-title text-center'>Why Us?</h2>
       <div className='card-cover'>
         <div className='col-md-12'>

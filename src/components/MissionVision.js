@@ -2,7 +2,7 @@ import React from 'react'
 
 function MissionVision() {
   return (
-    <div className='container' style={{height:'40rem',marginTop:'7.3rem',paddingTop:'15px'}}>
+    <div className='container msv'>
         <div className='container'>
         <h2 className='main-title text-center'>Vision</h2>
         <p style={{paddingLeft:'39px'}}>To emerge as the global leader in agricultural goods, establishing the benchmark for quality,

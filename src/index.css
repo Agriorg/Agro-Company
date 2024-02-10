@@ -359,7 +359,7 @@ main {
 .footer-top {
   margin: 0;
   padding: 0.1rem 0;
-  background-color: #01bf71;
+  background-color: #125c13;
 }
 .footer-top p {
   font-size: 18px;
@@ -424,7 +424,7 @@ footer ul li a {
 }
 .gotop {
   transition: all 0.2s;
-  background-color: #01bf71;
+  background-color: #125c13;
   position: fixed;
   border-radius: 25px;
   padding: 1rem;
@@ -505,6 +505,17 @@ ul li a {
   height: 25rem;
   border-radius: 20px;
 }
+.customdiv3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.msv{
+  height: 40rem;
+  margin-top: 7.3rem;
+  padding-top: 15px;
+}
 .abtn{
   font-size: 20px;
   display: flex;
@@ -551,6 +562,14 @@ ul li a {
   line-height: 36px;
   width: 45.75rem;
   height: 18rem;
+}
+.abtimg{
+  margin-top: 80px;
+  background-position: center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
 }
 .fade-in {
   opacity: 0;
@@ -610,6 +629,9 @@ ul li a {
   border: 2px solid #8b8b8b;
   /* background-color: #FFB534; */
 
+}
+.contactst{
+  width: 50%;
 }
 .contact-textarea::placeholder,
 .contact-input::placeholder{
@@ -693,6 +715,9 @@ width: 17.5rem;
   .wrow{
     width: 60rem;
   }
+  .product{
+    height: 66rem;
+  }
   .wcard{
     /* padding-right: 30px; */
     flex-wrap: wrap;
@@ -730,7 +755,10 @@ width: 17.5rem;
     margin-left: 38px;
   }
   .customdiv{
-    margin-top: 1.5rem;
+    margin-top: 23rem;
+  }
+  .customdiv2{
+    margin-top: 29rem;
   }
   .customdiv p{
     font-size: 17px;
@@ -764,6 +792,41 @@ width: 17.5rem;
     width: 100%;
 
   }
+  .headertext{
+    width: 25%;
+  }
+  .headertext h1{
+    font-size: 35px;
+    width: 20rem;
+  }
+  .why {
+    padding: 50px 0;
+    /* width: auto; */
+  }
+
+  .main-title {
+    margin-bottom: 30px; /* Adjust margin as needed */
+  }
+
+  .card-cover {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+ .wrow .col-md-4 {
+    flex: 0 0 33.333%;
+    max-width: 25%;
+    padding: 0 15px; 
+  }
+  .wrow{
+    width: auto;
+  }
+
+  .worw .mb-2 {
+    margin-bottom: 20px;
+  }
+
 }
 
 @media (max-width: 768px) { 
@@ -883,7 +946,7 @@ width: 17.5rem;
 
    }
   .navopened {
-    background-color: #558257!important;
+    background-color: #e8e1d9!important;
   }
   .navopened .logo {
     color: #fafafa!important;
@@ -896,6 +959,12 @@ width: 17.5rem;
   }
   .container {
     width: auto;
+  }
+  .customdiv2{
+    margin-top: 20rem;
+  }
+  .customdiv{
+    margin-top: 13rem;
   }
   .header {
     display: flex;
@@ -951,7 +1020,7 @@ width: 17.5rem;
   }
 .wcard{
   margin-right: 25px;
-  width: auto;
+  /* width: auto; */
 }
 
   .container {
@@ -970,7 +1039,7 @@ width: 17.5rem;
   }
 
   .burger {
-    background-color: #db3716;
+    background-color: #125c13;
   }
   .navbar {
     backdrop-filter: none;
@@ -1009,7 +1078,7 @@ width: 17.5rem;
       cursor: pointer;
     font-size: 20px;
     text-decoration: none;
-    color: #db3716;
+    color: #125c13;
     font-weight: 500;
   
   }
@@ -1019,8 +1088,21 @@ width: 17.5rem;
   .row {
     display: inline-block;
   }
+  /* .col-md-4 {
+    flex: 0 0 33.333%;
+    max-width: 25%;
+    padding: 0 15px; 
+  }
+  .wrow{
+    width: auto;
+  }
+
+  .mb-2 {
+    margin-bottom: 20px;
+  } */
   .wrow{
     display: inline-block;
+    margin-left: 5rem;
   }
   .certiimg{
     display: inline-block;
@@ -1037,6 +1119,46 @@ width: 17.5rem;
   }
   .footer .logoimg{
     height: 30px;
+  }
+  .container.contact {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    padding-top: 50px; /* Adjusted padding top */
+  }
+
+  .container.contact > div {
+    width: 90%; /* Adjusted width */
+    margin-bottom: 20px; /* Add some margin between sections */
+  }
+
+  .contact-input {
+    width: 100%; /* Full width input fields */
+  }
+
+  .contact-textarea {
+    width: 100%; /* Full width textarea */
+    min-height: 150px; /* Adjusted minimum height */
+  }
+
+  .form-btn {
+    width: 92%; /* Full width button */
+  }
+
+  .main-title {
+    font-size: 24px; /* Adjusted font size */
+  }
+  .contactst{
+    width: 100%;
+  }
+  .mobile-hidden{
+    display: none;
+  }
+  .abtimg{
+    margin-top: 69px;
+  }
+  .msv{
+    height: auto;
+    margin-top: 5rem;
   }
 
 }
