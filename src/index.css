@@ -317,13 +317,21 @@ code {
 main {
   justify-content: center;
   /* max-height: 3000px; */
-  padding: 3rem 0;
+  padding: 0 0 3rem 0;
   background-color: #fafafa;
   width: 100%;
 }
 .why{
   margin-top: 150px;
   height: auto;
+}
+.wrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 1;
+    width: 80rem;
+  
 }
 .certiimg{
   display: flex;
@@ -341,8 +349,10 @@ main {
 .wcard{
   display: flex;
   align-items: center;
+  border-radius: 10px 10px 5px 5px;
+  width: 100%;
   padding: 20px;
-  width: 21.7rem;
+  /* width: 21.7rem; */
   height: 100px;
   margin-left: 25px;
   margin-top: 25px;
@@ -567,7 +577,7 @@ ul li a {
   /* opacity: 0.5; */
   border-radius: 20px;
   height: auto;
-  width: 100%;
+  /* width: 100%; */
 
 }
 
@@ -643,11 +653,43 @@ ul li a {
   max-height: 600px;
   outline: 0;
 }
+@media (max-width:1440px){
+  .wrow{
+    width: 95%;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    /* width: 12rem; */
+  }
+  .wcard{
+width: 17.5rem;
+  }
+  .card-cover{
+    padding: 32px;
+  }
+  .customdiv2{
+
+  }
+}
 
 @media (max-width: 1300px) {
   .container {
     max-width: 1300px;
   }
+  .customdiv{
+    margin-top: 6.5rem;
+  }
+  .about p{
+    width: auto;
+  }
+  .abtn{
+    margin-top: 35px;
+  }
+  .wrow{
+    width: 60rem;
+  }
+.customdiv2{
+  margin-top: 12rem;
+}
 }
 
 @media (max-width: 992px) {

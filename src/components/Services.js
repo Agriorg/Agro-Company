@@ -4,19 +4,6 @@ import React from "react";
 // import Card from "./Card";
 import MCard from "./mainCard";
 import { useNavigate } from "react-router-dom";
-// import Albu from "../img/Albumen.png"
-// import Banana from "../img/Banana.jpg"
-// import DeOnion from "../img/DeOnion.jpg"
-// import DeRed from "../img/DeRedO.jpg"
-// import EggYolk from "../img/EggYolk.jpg"
-// import GreenB from "../img/GreenB.jpg"
-// import OnionO from "../img/OnionOil.jpg"
-// import Unripe from "../img/Unripe.jpg"
-// import Whiteo from "../img/WhiteOnion.webp"
-// import WholeE from "../img/WholeEgg.jpg"
-// import ban from "../img/bananaa.png"
-// import on from "../img/onion.png"
-// import egg from "../img/egg.png"
 import egg from "../img/nest.png"
 import on from "../img/onion.png"
 import ban from "../img/bananas.png"
@@ -24,7 +11,7 @@ function Services() {
   const navigate = useNavigate();
   const productsData = [
     {
-      title: "Onion Powder/Oil",
+      title: "Onion Powder",
       img: on,
       text: "Agri Earth Exports offers top-quality onion powder: convenient, flavorful, enhances any dish effortlessly.",
       route:'/onion-powder',

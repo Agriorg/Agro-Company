@@ -23,12 +23,6 @@ function OnionPowder() {
         img: redOnion,
         text:'Elevate your culinary creations with our Premium Red Onion Powder. Sourced from the finest red onions, this convenient and versatile powder adds rich flavor without the tears. Perfect for soups, stews, and marinades. Time-saving, long shelf life, and packed with health benefits. Farm-to-table transparency in every sprinkle. Upgrade your dishes with ease!',
         // ext: "Made from finest quality dehydrated Indian pink/red onions. The flavour is slightly stronger and sweeter than regular onion powder, and it is especially good to use in seasoning mixes, dry rubs and dressings.Elevate your culinary creations with our Premium Red Onion Powder. Sourced from the finest red onions, this convenient and versatile powder adds rich flavor without the tears. Perfect for soups, stews, and marinades. Time-saving, long shelf life, and packed with health benefits. Farm-to-table transparency in every sprinkle. Upgrade your dishes with ease!Elevate your culinary creations with our Premium Red Onion Powder. Sourced from the finest red onions, this convenient and versatile powder adds rich flavor without the tears. Perfect for soups, stews, and marinades. Time-saving, long shelf life, and packed with health benefits. Farm-to-table transparency in every sprinkle. Upgrade your dishes with ease!"
-      },
-      {
-        title: "Onion Oil",
-        img: OnionOil,
-        text:' Introducing our premium Onion Oil Powder – a game-changer for agricultural enthusiasts! Harvested from the finest onions, our Onion Oil Powder is a concentrated and convenient solution to amplify the health and vitality of your crops.',
-        // text: "Onion oil is rich in sulfur which prevents breakage, split ends and thinning of hair. Other nutrients present in onion prevents oxidation of hair. It also maintains the regular pH of the hair, preventing premature greying."
       }
   ];
   const generateProductCards = () => {
