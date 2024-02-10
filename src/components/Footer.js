@@ -5,13 +5,13 @@ function Footer() {
 
   return (
     <footer>
-      <div className="container footer">
+      <div className="container footer ">
         <div className="row" style={{height:'3rem'}}>
           <div className="side1">
             <div className="row" style={{alignItems:'flex-end'}}>
               <div className="col-md-3" >
                 {/* <h1 className="logo">Agro Company</h1> */}
-                <img src={logo}  className='logoimg' style={{marginTop:'0',height:'180px'}} />
+                <img src={logo}  className='logoimg' style={{marginTop:'15px'}} />
                 <p className="footer-text">
                   {/* Lorem ipsum Here are thriteen health benefits of apples Lorem */}
         

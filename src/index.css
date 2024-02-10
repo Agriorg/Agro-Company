@@ -159,7 +159,9 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 168px;
+  height: 60.06px;
+  padding-bottom: 15px;
+  width: 196.06px;
 }
 .navbar ul { 
   transition: all 0.2s;
@@ -367,9 +369,9 @@ main {
 }
 footer {
   width: 100%;
-  height: 10rem;
+  height: 8rem;
   margin: 0;
-  padding: 1rem 0;
+  padding: 0 0 1.4rem 0;
   background-color:#e8e1d9;
 }
 .side1 {
