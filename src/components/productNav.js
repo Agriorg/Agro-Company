@@ -13,12 +13,7 @@ function ProductNav() {
   return (
     <nav className="navbar">
     <div className="container">
-      <div className="row" style={{height:'90px'}}>
-        {/* <h1 className="logo">
-          <Link to="/" style={{ cursor: "pointer", color: "#db3716", fontWeight: "700" }}>
-            Agro Company
-          </Link>
-        </h1> */}
+      <div className="row" style={{height:'6rem',marginTop:'7px'}}>
         <img src={logo} className="logoimg" />
         <ul className="bar">
           <li>

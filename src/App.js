@@ -10,6 +10,7 @@ import EggPowder from "./components/EggPowder"
 import OnionPowder from "./components/OnionPowder"
 import Aboutmore from "./components/Aboutmore";
 import Contact from "./components/Contact";
+import MissionVision from "./components/MissionVision";
 function App() {
   return (
     <Router>
@@ -20,10 +21,18 @@ function App() {
       <Route path="/onion-powder" element={<OnionDetail />} />
       <Route path="/about" element={<Aboutm/>} />
       <Route path="/contact" element={<Contact/>} />
+      <Route path="/mission-vision" element= {<Visionm/>} />
     </Routes>
   </Router>
   );
 }
+const Visionm =() =>(
+  <>
+  <ProductNav/>
+  <MissionVision />
+  <Footer/>
+  </>
+)
 const Aboutm = () => (
   <>
     <ProductNav />

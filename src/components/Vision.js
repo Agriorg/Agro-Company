@@ -1,4 +1,4 @@
-import about from "../img/about.avif"
+import right from "../img/right.png"
 function Vision() {
   return (
     <>
@@ -11,11 +11,13 @@ function Vision() {
             <p className="main-p">
 Our aim to to be the largest agro poultry suppplier of india .
             </p>
+            <div style={{ display: "flex", alignItems: "center", height: "25px", marginBottom: "5px", cursor: "pointer" }}>
+                <a href="/mission-vision" style={{ display: "flex", alignItems: "center", paddingBottom: "30px", textDecoration: "none",color:'#e8e1d9' }}>Learn More
+                  <img src={right} style={{ height: "15px", marginLeft: "6px" }} alt="Right Arrow" />
+                </a>
+              </div>
           </div>
             </div>
-          {/* <div className="col-md-6 text-center">
-            <img alt="about" src={about} className="img-fluid" style={{borderRadius:'15px'}} />
-          </div> */}
         </div>
       </div>
     </>

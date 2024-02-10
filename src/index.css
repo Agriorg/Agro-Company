@@ -133,7 +133,7 @@ code {
   position: fixed;
   top: 0;
   width: 100% ;
-  height: 7rem;
+  height: 6.25rem;
   padding: 0.5rem;
   background-color: #E8E1D9;
   z-index: 2;
@@ -153,17 +153,17 @@ code {
   padding-top: 10px;
 }
 .logoimg{
-  margin-top: 25px;
+  /* margin-top: 25px; */
   /* background-position: center;
   background-size: contain; */
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 180px;
+  height: 168px;
 }
 .navbar ul { 
   transition: all 0.2s;
-
+  margin-bottom: 25px;
   margin-left: 25rem;
   list-style: none;
 }
@@ -252,13 +252,13 @@ code {
   flex: 1;
 }
 .headertext h1{
-  font-size: 52px;
-  width: 30rem;
+  font-size: 68px;
+  width: 36.88rem;
   display: flex;
   margin-left: 8rem;
   padding-left: 5px;
   font-weight: 600;
-  line-height: 68px;
+  line-height: 81.4px;
   margin-bottom: 10px;
 }
 .headertext p{
@@ -267,8 +267,8 @@ code {
   justify-content: flex-end;
   font-weight: 500;
   margin-top: 0;
-  width: 25rem;
-  padding-left: 30px;
+  width: 26.688rem;
+  /* padding-left: 25px; */
 }
 .headbtn{
   cursor: pointer;
@@ -278,7 +278,7 @@ code {
   border: 0;
   box-sizing: border-box;
   border-radius: 12px;
-  background-color: #EE7214;
+  background-color: #9DC812;
   color: #E8E1D9;
   font-size: 16px;
   font-weight: 600;
@@ -291,8 +291,8 @@ code {
   justify-content: center;
   flex: 1;
   /* position: sticky; */
-  height: 350px;
-  width: 350px;
+  height: 383px;
+  width: 448px;
   /* left: 800px;
   top: 200px; */
 
@@ -485,19 +485,43 @@ ul li a {
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  background-color:rgb(139, 139, 139,0.5);
-  margin-top: 13rem;
-  height: 20rem;
-  border-radius: 12px;
+  background-color: #1D291DC2;;
+  margin-top: 4rem;
+  height: 37.88rem;
+  border-radius: 20px;
+}
+.abtn{
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #125c13;
+  width: 230px;
+  height: 51px;
+  border-radius: 13px;
+  border: 0;
+  background-color: #9dc812;
+  cursor: pointer;
 }
 .about {
   margin-bottom: 15rem;
-  background-image: url('../src/img/farmland.jpg');
+  background-image: url('../src/img/field.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   height: 100vh; 
 
+}
+.about p{
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  padding: 15px;
+  font-weight: 300;
+  color: #e8e1d9;
+  line-height: 36px;
+  width: 45.75rem;
+  height: 18rem;
 }
 .fade-in {
   opacity: 0;
