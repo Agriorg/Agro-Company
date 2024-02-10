@@ -4,8 +4,9 @@ import apeda from "../img/apeda.png"
 import spices from "../img/spices.png"
 function Certificate() {
   return (
-    <div className='container'>
+    <div className='container' style={{marginTop:'90px'}}>
         <div className='main-title text-center'>
+          <h2 className='main-title text-center'>Certifications</h2>
             <div className='certiimg'>
         <img src={fssai} alt='fssai-logo' className='cimg' />
         <img src={apeda} alt='apeda-logo' className='cimg' />

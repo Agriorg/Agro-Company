@@ -12,7 +12,7 @@ function Reachout() {
             </div>
             <div className='col-md-12'>
                 {/* <h2 style={{fontWeight:'500'}}>Enquiry</h2> */}
-                <a href='/contact' style={{fontWeight:'500',textDecoration:'none',fontSize:'18px'}}>Enquiry</a>
+                <a href='/contact' style={{fontWeight:'500',textDecoration:'none',fontSize:'18px',color:'#125c13'}}>Reach out to us</a>
             </div>
         </div>
         </div>

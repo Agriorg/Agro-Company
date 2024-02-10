@@ -23,7 +23,7 @@ function Why() {
   ]
   const generateWhyCards = () => {
     return (
-      <div className="row">
+      <div className="row" style={{width:'80rem'}}>
         {WhyData.map((why, index) => (
           <div key={index} className="col-md-4 mb-2" >
 

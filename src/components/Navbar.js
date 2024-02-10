@@ -32,7 +32,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="container">
-        <div className="row" style={{height:'6rem'}}>
+        <div className="row" style={{height:'6rem',marginTop:'7px'}}>
           {/* <h1 className="logo"> */}
             {/* <Link
               spy={true}
@@ -41,7 +41,7 @@ function Navbar() {
               to='/'
               style={{ cursor: "pointer", color: "#db3716", fontWeight: "700" }}
             > */}
-              <img src={logo} className="logoimg" />
+              <img src={logo} alt="logo" className="logoimg" />
               {/* Agri Earth Exports */}
             {/* </Link> */}
           {/* </h1> */}

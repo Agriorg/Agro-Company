@@ -159,7 +159,7 @@ code {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
+  height: 180px;
 }
 .navbar ul { 
   transition: all 0.2s;
@@ -343,10 +343,11 @@ main {
   display: flex;
   align-items: center;
   padding: 20px;
-  width: 21rem;
+  width: 21.7rem;
   height: 100px;
   margin-left: 25px;
   margin-top: 25px;
+  margin-right: 25px;
   background-color: rgba(232, 255, 217, 0.5);
 }
 /* footer */
