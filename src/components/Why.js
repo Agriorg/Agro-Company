@@ -35,7 +35,7 @@ function Why() {
   };
   return (
     <div className=' container  why'>
-      <h2 className='main-title text-center'>Why Us?</h2>
+      <h2 className='main-title text-center'>WHY US?</h2>
       <div className='card-cover'>
         <div className='col-md-12'>
           {generateWhyCards()}

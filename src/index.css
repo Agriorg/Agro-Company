@@ -307,7 +307,7 @@ code {
 }
 /* main */
 .main-title {
-  font-size: 24px;
+  font-size: 30px;
   color: #125c13;
 }
 
@@ -320,7 +320,7 @@ main {
   width: 100%;
 }
 .why{
-  margin-top: 150px;
+  margin-top: 70px;
   height: auto;
 }
 .wrow{
@@ -330,6 +330,10 @@ main {
     z-index: 1;
     width: 80rem;
   
+}
+.certilogo{
+  height: 5rem;
+  width: 5rem;
 }
 .certiimg{
   display: flex;
@@ -760,7 +764,7 @@ width: 17.5rem;
     display: none;
   }
   .whatimg{
-    height: 40rem;
+    height: 45rem;
     width: 100%;
     margin-bottom: 40px;
 
