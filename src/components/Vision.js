@@ -9,7 +9,7 @@ function Vision() {
   return (
     <>
 
-      <div className=" about" >
+      <div className=" vision" >
         <div className="row" style={{justifyContent:'center'}}>
           <div className="col-md-6" >
             <div className="customdiv2">

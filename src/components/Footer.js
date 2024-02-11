@@ -49,9 +49,9 @@ function Footer() {
                   <li>
                     <Link to="#" >Rushikesh Moholkar </Link>
                   </li>
-                  {/* <li>
+                  <li>
                     <Link to="#" > Burhan #</Link>
-                  </li> */}
+                  </li>
                   <li>
                     <Link to="#" >+91-7757941111</Link>
                   </li>

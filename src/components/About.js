@@ -40,12 +40,7 @@ function About() {
                    Our commitment to maintaining robust supplier relationships ensures uncompromising quality. 
                    With stringent quality checks from farm to final product, we deliver excellence in every variant.
                 </p>
-              {/* <div style={{ display: "flex", alignItems: "center", height: "25px", marginBottom: "5px", cursor: "pointer" }}> */}
                 <button onClick={handleButtonClick} className="abtn">Learn More</button>
-                {/* <a href="/about" >Learn More
-                  <img src={right} style={{ height: "15px", marginLeft: "6px" }} alt="Right Arrow" />
-                </a> */}
-              {/* </div> */}
             </div>
           </div>
         </div>
