@@ -739,7 +739,7 @@ ul li a {
 }
 @media (max-width:1536px){
   .container{
-    max-width: 1536px;
+    max-width: 1440px;
   }
   .wrow{
     width: 95%;
