@@ -29,7 +29,7 @@ function Footer() {
                   > Home </Link>
                   </li>
                   <li>
-                  <Link to="services" spy={true} smooth={true} duration={1000} > Services </Link>
+                  <Link to="services" spy={true} smooth={true} duration={1000} > Our Products </Link>
                   </li>
                   <li>
                   <Link to="about" spy={true} smooth={true} duration={1000}>About Us  </Link>
