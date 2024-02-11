@@ -14,7 +14,7 @@ function Header() {
     <div className='header'>
       <div className='headertext'>
         <h1>Discover The Best Agricultural Products</h1>
-        <p>Products for your daily Household needs</p>
+        <p>Straight from Indian Farms.</p>
         <Link
           to="about"
           smooth={true}
