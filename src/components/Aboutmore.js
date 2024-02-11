@@ -24,18 +24,18 @@ function Aboutmore() {
       <img src={leaves} alt='leaves' className='abtimg' />
       <div className='container' style={{ padding: '50px', marginLeft: '30px' }}>
         <div>
-          <h2 className='main-title text-center'>About Company</h2>
-          <p>
+          <h2 className='main-title text-center' style={{fontSize:'35px'}}>About Company</h2>
+          <p style={{fontSize:'23px'}}>
             The core idea behind the establishment of Agri Earth Exports PVT LTD has been to connect our rural Indian
             farmers in our supply chain reducing the exploitation of middlemen in the agriculture industry.
           </p>
-          <p>
+          <p style={{fontSize:'23px'}}>
             Our company delivers only the best quality and value when it comes to agriculture products and supplements.
             We achieve this by using the finest-quality ingredients, trusted suppliers, and state-of-the-art facilities to cut out unnecessary costs.
             All of our products adhere to strict
             Food and Safety norms aligned with FSSAI and global standards.
           </p>
-          <p>
+          <p style={{fontSize:'23px'}}>
             Agri Earth Exports PVT LTD was conceptualized in 2023 and set up our first operations in Maharashtra,
             the region that produces top-quality agriculture products in India.
             Our company is backed by experts with over five decades of experience in agriculture technology,

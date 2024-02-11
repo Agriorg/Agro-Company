@@ -570,7 +570,8 @@ ul li a {
 
 
 .about {
-  margin-bottom: 15rem;
+  /* margin-bottom: 15rem; */
+  /* margin-top: 100px; */
   background-image: url('../src/img/abtbg.png');
   background-size: cover;
   background-position: center;
@@ -646,6 +647,8 @@ ul li a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  /* margin-top: 15rem; */
+  padding-top: 6rem;
   margin-bottom:14rem;
 }
 .reach{
@@ -749,7 +752,7 @@ width: 17.5rem;
   }
   .customdiv{
     height: auto;
-    margin-top: 50px;
+    margin-top: 82px;
   }
   .abtn{
     margin-bottom: 20px;
