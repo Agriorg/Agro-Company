@@ -335,6 +335,13 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom:30px;
+}
+.certi{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .cimg{
   height: 160px;
@@ -513,7 +520,7 @@ ul li a {
 .customdiv3{
   display: flex;
   align-items: center;
-  margin-right: 25px;
+  /* margin-right: 25px; */
   justify-content: center;
   flex-direction: column;
 }
@@ -554,7 +561,7 @@ ul li a {
   background-position: center;
   background-repeat: no-repeat;
   height: 90vh;
-  margin-bottom: 15rem;
+  margin-bottom: 4rem;
 }
 
 
@@ -564,12 +571,13 @@ ul li a {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 100vh;
   /* opacity: 0.7;  */
 
 }
 .vision p{
   display: flex;
+  text-align: center;
   align-items: center;
   font-size: 22px;
   padding: 15px;
@@ -582,6 +590,7 @@ ul li a {
 .about p{
   display: flex;
   align-items: center;
+  text-align: center;
   font-size: 22px;
   padding: 15px;
   font-weight: 300;
@@ -628,6 +637,13 @@ ul li a {
   justify-content: center;
   align-items: center;
 }
+.enquiry{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom:14rem;
+}
 .reach{
   display: flex;
   align-items: center;
@@ -637,6 +653,20 @@ ul li a {
   cursor: pointer;
   height: auto;
   width:20rem;
+}
+.reachout-button{
+  background-color: #12372A;
+  height:81px ;
+  width: 350px;
+  font-size: 25px;
+  color: #ffffff;
+  border-radius: 13px;
+  padding: 27px 70px;
+  gap: 19.48px;
+}
+.reachimg{
+
+  height: 30rem;
 }
 .card-content{
   transition: opacity 0.3s ease-in-out;
@@ -726,6 +756,15 @@ width: 17.5rem;
   .about p{
     width: auto;
   }
+  .what{
+    display: none;
+  }
+  .whatimg{
+    height: 40rem;
+    width: 100%;
+    margin-bottom: 40px;
+
+  }
 }
 
 @media (max-width: 1280px) {
@@ -746,6 +785,9 @@ width: 17.5rem;
   }
 .customdiv2{
   margin-top: 3rem;
+}
+.what{
+  display: none;
 }
 }
 @media (max-width:1024px) {
@@ -799,6 +841,9 @@ width: 17.5rem;
   }
   .customdiv2{
     margin-top: 29rem;
+  }
+  .what{
+    display: none;
   }
   .customdiv p{
     font-size: 17px;
@@ -869,6 +914,12 @@ width: 17.5rem;
 } */
 
 @media (max-width: 768px) { 
+  .what{
+    display: none;
+  }
+  .whatimg{
+    height: 30rem;
+  }
   .header {
     height: auto;
     flex-direction: column-reverse;
@@ -941,6 +992,10 @@ width: 17.5rem;
 
 }
 @media (max-width: 576px) { 
+  .whatimg{
+    /* display: none; */
+    height: 20rem;
+  }
   .container{
     max-width: 576px;
   }
@@ -1001,7 +1056,12 @@ width: 17.5rem;
     width: auto;
   }
   .customdiv2{
+    display: flex;
+    width: 24rem;
     margin-top: 20rem;
+  }
+  .customdiv2 p{
+    width: 22rem;
   }
   .customdiv{
     margin-top: 13rem;

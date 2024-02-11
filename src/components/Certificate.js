@@ -5,8 +5,8 @@ import spices from "../img/spices.png"
 function Certificate() {
   return (
     <div className='container' style={{marginTop:'90px'}}>
-        <div className='main-title text-center'>
-          <h2 className='main-title text-center'>Certifications</h2>
+        <div className='main-title text-center  certi '>
+          <h2 className='main-title text-center' style={{fontSize:'28px'}}>Certifications</h2>
             <div className='certiimg'>
         <img src={fssai} alt='fssai-logo' className='cimg' />
         <img src={apeda} alt='apeda-logo' className='cimg' />
@@ -17,4 +17,8 @@ function Certificate() {
   )
 }
 
+
 export default Certificate
+
+
+

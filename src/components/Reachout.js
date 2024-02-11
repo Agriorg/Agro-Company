@@ -1,27 +1,34 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import reachout from "../img/reachout.png"
 import { useNavigate } from 'react-router-dom'
-import contact from "../img/email.png"
 function Reachout() {
+  const navigate = useNavigate();
+  const handleButtonClick = () =>{
+    navigate('/contact')
+  }
   return (
     <div className='container enquiry'>
-        {/* <h2 className='main-title text-center'>Enquiry</h2> */}
-        <div class="sub-container">
-        <div className='reach' >
-
-            <div className='col-md-12' style={{margin:'10px 0',padding:'10px'}}>
-              <Link to='/contact'>
-                <img src={contact} style={{height:'80px',marginTop:'10px'}} />
-              </Link>
-            </div>
-            <div className='col-md-12'>
-                {/* <h2 style={{fontWeight:'500'}}>Enquiry</h2> */}
-                <a href='/contact' style={{fontWeight:'500',textDecoration:'none',fontSize:'18px',color:'#e8e1d9'}}>Reach out to us</a>
-            </div>
-        </div>
-        </div>
+      <img src={reachout}  className='reachimg'/>
+      <div className="button-container" style={{ marginTop: '-280px' }}>
+        <button className="reachout-button" onClick={handleButtonClick}>Reach Out To Us</button>
+      </div>
     </div>
   )
 }
 
 export default Reachout
+
+
+{/* <div class="sub-container">
+</div> */}
+{/* <div className='reach' >
+
+</div> */}
+
+{/* <div className='col-md-12' style={{margin:'10px 0',padding:'10px'}}>
+  <Link to='/contact'>
+  </Link>
+</div>
+<div className='col-md-12'>
+    <a href='/contact' style={{fontWeight:'500',textDecoration:'none',fontSize:'18px',color:'#e8e1d9'}}>Reach out to us</a>
+</div> */}

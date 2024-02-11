@@ -9,9 +9,7 @@ function MissionVision() {
              innovation, and sustainability, while fostering a positive and meaningful impact within every community 
              along the value chain worldwide.</p>
         <h2 className='text-center main-title'>Mission</h2>
-        <p style={{paddingLeft:'39px'}}>To emerge as the global leader in agricultural goods, establishing the benchmark for quality,
-           innovation, and sustainability, while fostering a positive and meaningful impact within every community along
-            the value chain worldwide.</p>
+        <p style={{paddingLeft:'39px'}}>Agri Earth Exports strives to innovate and meet market needs continually, providing exceptional agricultural products.</p>
             <div>
               <h2 className='text-center main-title'>Values</h2>
               <ul>

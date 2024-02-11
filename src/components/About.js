@@ -27,11 +27,11 @@ function About() {
 
   return (
     <>
-      <div className="about">
+      <div className="about" >
         <div className="row" style={{justifyContent:'center'}}>
           <div className="col-md-6" >
             <div className="customdiv">
-              <h2 className="main-title text-center about-h2" style={{color:'#e8e1d9',fontSize:'48px',fontWeight:'400',margin:'0'}}>
+              <h2 className="main-title text-center about-h2" style={{color:'#e8e1d9',fontSize:'48px',fontWeight:'400',marginTop:'10px'}}>
                 About Us
               </h2>
                 <p className="aboutp" >

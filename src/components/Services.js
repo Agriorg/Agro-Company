@@ -4,15 +4,15 @@ import React from "react";
 // import Card from "./Card";
 import MCard from "./mainCard";
 import { useNavigate } from "react-router-dom";
-import egg from "../img/eggs.png"
-import on from "../img/onion.png"
+import egg from "../img/egg.png"
+import on from "../img/onion (2).png"
 import ban from "../img/bananas.png"
 function Services() {
   const navigate = useNavigate();
   const productsData = [
     {
       title: "Onion Powder",
-      img: on,
+      img: egg,
       text: "Agri Earth Exports offers top-quality onion powder: convenient, flavorful, enhances any dish effortlessly.",
       route:'/onion-powder',
     },
@@ -24,7 +24,7 @@ function Services() {
     },
     {
       title: "Egg Powder",
-      img: egg,
+      img: on,
       text: "Explore superior egg powder: a convenient, nutritious addition for cooking and baking adventures.",
       route: '/egg-powder',
     },
