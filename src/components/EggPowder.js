@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card'
 import eggYolk from "../img/eggYolk.png"
-import Albumen from "../img/Albumen.png"
+import Albumen from "../img/albumen.jpg"
 import wholeEgg from "../img/wholeegg.png"
 function EggPowder() {
   const productsData = [

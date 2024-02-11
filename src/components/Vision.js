@@ -15,9 +15,8 @@ function Vision() {
             <div className="customdiv2">
             <h2 className="main-title text-center about-h2" style={{color:'#e8e1d9',fontSize:'48px',fontWeight:'400',margin:'0'}}>VISION</h2>
             <p >
-            To become the unrivaled global leader in agricultural excellence, 
-            setting new standards for quality, innovation, and sustainability, while fostering positive change 
-            in communities worldwide.
+            To emerge as the global leader in agricultural goods, establishing the benchmark for quality, innovation, and sustainability, 
+            while fostering a positive and meaningful impact within every community along the value chain worldwide.
                 </p>
             <div style={{ display: "flex", alignItems: "center", height: "25px", marginBottom: "25px", cursor: "pointer" }}>
                 <button onClick={handleButtonClick} className="vbtn">Learn More</button>

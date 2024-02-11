@@ -4,7 +4,7 @@ import React from "react";
 // import Card from "./Card";
 import MCard from "./mainCard";
 import { useNavigate } from "react-router-dom";
-import egg from "../img/nest.png"
+import egg from "../img/eggs.png"
 import on from "../img/onion.png"
 import ban from "../img/bananas.png"
 function Services() {
