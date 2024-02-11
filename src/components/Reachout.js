@@ -9,7 +9,7 @@ function Reachout() {
   return (
     <div className='container enquiry'>
       <img src={reachout}  className='reachimg'/>
-      <div className="button-container" style={{ marginTop: '-280px' }}>
+      <div className="button-container" >
         <button className="reachout-button" onClick={handleButtonClick}>Reach Out To Us</button>
       </div>
     </div>

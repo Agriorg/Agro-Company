@@ -661,6 +661,9 @@ ul li a {
   height: auto;
   width:20rem;
 }
+.button-container{
+  margin-top: -280px;
+}
 .reachout-button{
   background-color: #12372A;
   height:81px ;
@@ -772,6 +775,12 @@ width: 17.5rem;
     margin-bottom: 40px;
 
   }
+  .farmerimg{
+    margin-left: 100px;
+  }
+  .vision p{
+    width: auto;
+  }
 }
 
 @media (max-width: 1280px) {
@@ -795,6 +804,25 @@ width: 17.5rem;
 }
 .what{
   display: none;
+}
+.headertext h1{
+  margin-left: 40px;
+}
+.headertext p{
+  justify-content: flex-start;
+  margin-left:48px;
+}
+.headbtn{
+  margin-left: 46px;
+}
+.headertext{
+  width: 20rem;
+}
+.farmerimg{
+  margin-left: 0;
+  width: 30rem;
+  height: 30rem;
+
 }
 }
 @media (max-width:1024px) {
@@ -826,6 +854,7 @@ width: 17.5rem;
   }
   .headertext{
     padding-bottom: 40px;
+    width: 15rem;
   }
   .header{
     margin-top: 5rem;
@@ -835,9 +864,11 @@ width: 17.5rem;
   }
   .headertext h1{
     margin-left: 30px;
+    font-size: 50px;
   }
   .headertext p{
     margin-left: 38px;
+    font-size: 25px;
     justify-content: flex-start;
   }
   .headbtn{
@@ -855,9 +886,21 @@ width: 17.5rem;
   .customdiv p{
     font-size: 17px;
   }
+
   .navbar ul{
     width: 30rem;
     margin: 0;
+  }
+  .farmerimg{
+    width: 450px;
+    margin-left: 0;
+    height: 420px;
+  }
+  .main-title.certi{
+    width: 60rem;
+  }
+  .cimg{
+    margin: 30px 30px 0;
   }
   
 }
@@ -919,6 +962,42 @@ width: 17.5rem;
   }
 
 } */
+@media (max-width: 992px) {
+  .wrow .col-md-4 {
+    flex: 0 0 33.333%;
+    max-width: 25%;
+    padding: 0 15px; 
+  }
+  .wrow{
+    width: auto;
+  }
+
+  .worw .mb-2 {
+    margin-bottom: 20px;
+  }
+  .main-title.certi{
+    width: 49rem;
+  }
+  .reachimg{
+    width: 50rem;
+  }
+  .cimg{
+    margin: 10px 10px 0;
+  }
+  .header{
+    width: 50rem;
+  }
+  .farmerimg{
+    height: 30rem;
+  }
+  .headertext h1{
+    font-size: 38px;
+    width: auto;
+  }
+  .headertext p{
+    font-size: 20px;
+  }
+}
 
 @media (max-width: 768px) { 
   .what{
@@ -1003,6 +1082,29 @@ width: 17.5rem;
     /* display: none; */
     height: 20rem;
   }
+  .reachimg{
+    width: 35rem;
+    height: 20rem;
+  }
+  .button-container{
+    margin-top: -190px;
+  }
+.reachout-button{
+  width: 200px;
+  padding: 20px 0;
+  font-size: 15px;
+  height:60px ;
+}
+.main-title.certi{
+  width: auto;
+}
+.reachimg{
+  width: 26rem;
+  height: 20rem;
+}
+.certi{
+  display: inline-block;
+}
   .container{
     max-width: 576px;
   }
@@ -1075,6 +1177,7 @@ width: 17.5rem;
   }
   .header {
     display: flex;
+    width: auto;
     margin-top: 3.9rem;
     justify-content: center;
     align-items: center;
@@ -1087,8 +1190,8 @@ width: 17.5rem;
 
   .headertext h1{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    /* justify-content: center; */
+    /* align-items: center; */
     font-size: 35px;
     margin-left: 15px;
     font-weight: 800;
@@ -1112,7 +1215,7 @@ width: 17.5rem;
 
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start
   }
   .farmerimg{
     width: 400px;
@@ -1259,6 +1362,9 @@ width: 17.5rem;
   }
   .main-title ul{
     margin-right: 30px;
+  }
+  .main-title.certi{
+    margin-left: 50px;
   }
   .contactst{
     width: 100%;
