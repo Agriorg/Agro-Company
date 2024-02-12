@@ -1,7 +1,7 @@
 // import card from "../img/card1.png"
 function Card(props) {
   return (
-    <div className="card" style={{ height: "100%", backgroundColor: 'rgba(255, 255, 255, 0.5)' }} >
+    <div className="card" >
       <br />
       
       <div className="text-center">

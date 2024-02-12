@@ -46,14 +46,17 @@ function Footer() {
               <div className="col-md-3">
                 <p className="footer-title">Contact</p>
                 <ul>
-                  <li>
+                  {/* <li>
                     <Link to="#" >Rushikesh Moholkar </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <Link to="#" >A / P - junction, Tal - Indapur, Dist - Pune, Maharashtra - India - 413114</Link>
                   </li>
                   <li>
                     <Link to="#" >+91-7757941111</Link>
+                  </li>
+                  <li>
+                    <Link>+91-8605051135</Link>
                   </li>
                 </ul>
               </div>
