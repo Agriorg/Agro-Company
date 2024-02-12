@@ -1090,10 +1090,6 @@ width: 17.5rem;
     /* display: none; */
     height: 20rem;
   }
-  .reachimg{
-    width: 35rem;
-    height: 20rem;
-  }
   .button-container{
     margin-top: -190px;
   }
@@ -1107,8 +1103,9 @@ width: 17.5rem;
   width: auto;
 }
 .reachimg{
-  width: 26rem;
-  height: 20rem;
+  max-width: 100%;
+  width: 420px;
+  height: 340px;
 }
 .certi{
   display: inline-block;
@@ -1173,12 +1170,13 @@ width: 17.5rem;
     width: auto;
   }
   .customdiv2{
+    max-width: 100%;
     display: flex;
-    width: 24rem;
+    width: 24.7rem;
     margin-top: 20rem;
   }
   .customdiv2 p{
-    width: 22rem;
+    width: 21.5rem;
   }
   .customdiv{
     margin-top: 13rem;
@@ -1226,7 +1224,8 @@ width: 17.5rem;
     justify-content: flex-start
   }
   .farmerimg{
-    width: 400px;
+    max-width: 100%;
+    width: 360px;
   }
   .btn {
     margin-bottom: 10px;
@@ -1320,7 +1319,7 @@ width: 17.5rem;
   } */
   .wrow{
     display: inline-block;
-    margin-left: 5rem;
+    margin-left: 4.5rem;
   }
   .certiimg{
     display: inline-block;
@@ -1372,7 +1371,8 @@ width: 17.5rem;
     margin-right: 30px;
   }
   .main-title.certi{
-    margin-left: 50px;
+    max-width: max-content;
+    margin-left: 10.278vw;
   }
   .contactst{
     width: 100%;
@@ -1395,4 +1395,47 @@ width: 17.5rem;
 }
 .mb-1 {
   margin-bottom: 1rem!important;
+}
+
+
+@media (max-width:400px){
+  .customdiv2{
+    width: 21.4rem;
+  }
+  .main-title.certi{
+    margin-left: 19px;
+  }
+  .reachimg{
+    height: 300px;
+  }
+  .wrow{
+    margin-left: 3rem;
+  }
+}
+
+
+@media (max-width:350px){
+  .customdiv2{
+    width: 18rem;
+  }
+  .main-title.certi{
+    margin-left: 0;
+    margin-right: 0;
+    width: 307px;
+  }
+  .farmerimg{
+    width: auto;
+  }
+  .headertext h1{
+    width: auto;
+  }
+  .customdiv2  p{
+    width: auto;
+  }
+  .wrow{
+    margin-left: 0;
+  }
+  .wcard{
+    padding-left: 40px;
+  }
 }
