@@ -1102,6 +1102,9 @@ width: 17.5rem;
 .main-title.certi{
   width: auto;
 }
+.services{
+  height:max-content ;
+}
 .reachimg{
   max-width: 100%;
   width: 420px;
@@ -1305,18 +1308,6 @@ width: 17.5rem;
   .row {
     display: inline-block;
   }
-  /* .col-md-4 {
-    flex: 0 0 33.333%;
-    max-width: 25%;
-    padding: 0 15px; 
-  }
-  .wrow{
-    width: auto;
-  }
-
-  .mb-2 {
-    margin-bottom: 20px;
-  } */
   .wrow{
     display: inline-block;
     margin-left: 4.5rem;
@@ -1388,6 +1379,7 @@ width: 17.5rem;
     margin-top: 5rem;
   }
 
+
 }
 
 .mb-2 {
@@ -1438,4 +1430,5 @@ width: 17.5rem;
   .wcard{
     padding-left: 40px;
   }
+  
 }
