@@ -50,14 +50,14 @@ function Footer() {
                     <Link to="#" >Rushikesh Moholkar </Link>
                   </li>
                   <li>
-                    <Link to="#" > Burhan #</Link>
+                    <Link to="#" >A / P - junction, Tal - Indapur, Dist - Pune, Maharashtra - India - 413114</Link>
                   </li>
                   <li>
                     <Link to="#" >+91-7757941111</Link>
                   </li>
                 </ul>
               </div>
-              <div className="col-md-3">
+              <div className="col-md-3" style={{marginRight:'10px'}}>
                 <p className="footer-title">Social Media</p>
                 <ul>
                   <li>

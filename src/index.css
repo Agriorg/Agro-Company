@@ -388,7 +388,7 @@ main {
 }
 footer {
   width: 100%;
-  height: 8rem;
+  height: 10rem;
   margin: 0;
   padding: 0 0 1.4rem 0;
   background-color:#e8e1d9;
@@ -401,7 +401,8 @@ footer {
 
 }
 footer .col-md-3 {
-  height: 10rem;
+  padding-top: 115px;
+  height: 12rem;
 }
 footer .logo {
   transition: all 0.2s;
@@ -1378,7 +1379,9 @@ width: 17.5rem;
     height: auto;
     margin-top: 5rem;
   }
-
+  footer .col-md-3{
+    padding-top: 130px;
+  }
 
 }
 
@@ -1392,7 +1395,7 @@ width: 17.5rem;
 
 @media (max-width:400px){
   .customdiv2{
-    width: 21.4rem;
+    width: 21.8rem;
   }
   .main-title.certi{
     margin-left: 19px;
