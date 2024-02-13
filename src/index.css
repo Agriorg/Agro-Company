@@ -1111,7 +1111,7 @@ width: 17.5rem;
 .reachimg{
   max-width: 100%;
   width: 420px;
-  height: 340px;
+  height: 320px;
 }
 .certi{
   display: inline-block;
@@ -1178,7 +1178,7 @@ width: 17.5rem;
   .customdiv2{
     max-width: 100%;
     display: flex;
-    width: 24.7rem;
+    width: 23.7rem;
     margin-top: 20rem;
   }
   .customdiv2 p{
@@ -1231,7 +1231,7 @@ width: 17.5rem;
   }
   .farmerimg{
     max-width: 100%;
-    width: 360px;
+    width: 400px;
   }
   .btn {
     margin-bottom: 10px;
@@ -1333,27 +1333,27 @@ width: 17.5rem;
     height: 30px;
   }
   .container.contact {
-    flex-direction: column; /* Stack items vertically */
-    align-items: center; /* Center items horizontally */
-    padding-top: 50px; /* Adjusted padding top */
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
   }
 
   .container.contact > div {
-    width: 90%; /* Adjusted width */
-    margin-bottom: 20px; /* Add some margin between sections */
+    width: 90%;
+    margin-bottom: 20px; 
   }
 
   .contact-input {
-    width: 100%; /* Full width input fields */
+    width: 100%; 
   }
 
   .contact-textarea {
-    width: 100%; /* Full width textarea */
-    min-height: 150px; /* Adjusted minimum height */
+    width: 100%; 
+    min-height: 150px; 
   }
 
   .form-btn {
-    width: 92%; /* Full width button */
+    width: 92%; 
   }
 
   .main-title {
