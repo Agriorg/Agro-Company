@@ -7,7 +7,7 @@ function Certificate() {
   return (
     <div className='container' style={{marginTop:'90px'}}>
         <div className='main-title text-center  certi '>
-          <img src={certification} className='certilogo' />
+          {/* <img src={certification} className='certilogo' /> */}
           <h2 className='main-title text-center' style={{fontSize:'28px'}}>Certifications</h2>
             <div className='certiimg'>
         <img src={fssai} alt='fssai-logo' className='cimg' />
