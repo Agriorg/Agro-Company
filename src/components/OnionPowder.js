@@ -1,6 +1,5 @@
 import React from 'react'
 import Card from './Card';
-import OnionOil from "../img/OnionOil.png"
 import redOnion from "../img/redOnion.png"
 import whiteOn from "../img/whiteOnion.png"
 import DeOnion from "../img/deOnion.png"
