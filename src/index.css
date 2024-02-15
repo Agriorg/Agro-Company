@@ -341,9 +341,10 @@ main {
   justify-content: center;
   margin-bottom:30px;
 }
+.main-title.certi
 .certi{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
@@ -353,7 +354,16 @@ main {
   justify-content: center;
   align-items: center;
   margin: 60px 60px 0 60px;
-  /* width: 60px; */
+  overflow: hidden; 
+  /* animation: moveCerti 20s linear infinite; */
+}
+@keyframes moveCerti {
+  0% {
+    transform: translateX(0); 
+  }
+  50%, 100% {
+    transform: translateX(calc(100vw - (100% )));
+  }
 }
 .wcard{
   display: flex;
@@ -1035,10 +1045,14 @@ width: 17.5rem;
     height: auto;
     flex-direction: column-reverse;
     text-align: center;
+    width: 48rem;
     font-size: 20px!important;
   }
  .wrow{
   width: auto;
+ }
+ .reachimg{
+  width: 45rem;
  }
  .card-cover{
   padding-left: 8px;
@@ -1049,7 +1063,7 @@ width: 17.5rem;
 
   .headerimg ,
   .headertext{
-    width: 100%;
+    width: 45rem
   }
   .headertext{
     width: auto;
@@ -1063,7 +1077,7 @@ width: 17.5rem;
     margin-left: 50px;
   }
   .headbtn{
-    margin-left: 160px;
+    margin-left: 190px;
   }
   .customdiv2{
     margin-top: 11rem;
@@ -1082,6 +1096,9 @@ width: 17.5rem;
     font-size: 15px;
     height: auto;
     line-height: normal;
+  }
+  .main-title.certi{
+    width: 42rem;
   }
   .cimg{
     margin: 30px 30px 0 30px;
