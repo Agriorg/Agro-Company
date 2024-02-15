@@ -340,13 +340,15 @@ main {
   align-items: center;
   justify-content: center;
   margin-bottom:30px;
+  overflow:visible;
 }
-.main-title.certi
+
 .certi{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
 }
 .cimg{
   height: 160px;
@@ -354,17 +356,17 @@ main {
   justify-content: center;
   align-items: center;
   margin: 60px 60px 0 60px;
-  overflow: hidden; 
-  /* animation: moveCerti 20s linear infinite; */
+  /* overflow: hidden;  */
+  animation: moveCerti 10s linear infinite;
 }
 @keyframes moveCerti {
-  0% {
-    transform: translateX(0); 
+  0%, 100% {
+    transform: translateX(100vw); 
   }
-  50%, 100% {
-    transform: translateX(calc(100vw - (100% )));
+  50% {
+    transform: translateX(-100vw); 
   }
-}
+} 
 .wcard{
   display: flex;
   align-items: center;
@@ -1261,7 +1263,7 @@ width: 17.5rem;
     margin-left: 80px;
   }
   .headerimg {
-
+    width: 25rem;
     display: flex;
     align-items: center;
     justify-content: flex-start
@@ -1471,6 +1473,9 @@ width: 17.5rem;
   }
   .wcard{
     padding-left: 40px;
+  }
+  .headerimg{
+    width: 20rem;
   }
   
 }
