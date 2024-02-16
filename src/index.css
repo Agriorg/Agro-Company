@@ -357,16 +357,17 @@ main {
   align-items: center;
   margin: 60px 60px 0 60px;
   /* overflow: hidden;  */
-  animation: moveCerti 10s linear infinite;
+  animation: moveCerti 7s linear infinite ;
 }
+
 @keyframes moveCerti {
-  0%, 100% {
+  0% {
     transform: translateX(100vw); 
   }
-  50% {
+  100% {
     transform: translateX(-100vw); 
   }
-} 
+}
 .wcard{
   display: flex;
   align-items: center;
@@ -638,7 +639,7 @@ ul li a {
   background-position: center;
   background-size:cover;
   background-repeat: no-repeat;
-  height: 400px;
+  height: 250px;
   width: 100%;
 }
 .fade-in {
@@ -1122,6 +1123,15 @@ width: 17.5rem;
 
 }
 @media (max-width: 576px) { 
+  .footer-title{
+    font-size: 18px;
+  }
+  footer ul li a{
+    font-size: 14px;
+  }
+  footer .col-md-3{
+    padding-left: 9px;
+  }
   .whatimg{
     /* display: none; */
     height: 20rem;
@@ -1211,7 +1221,7 @@ width: 17.5rem;
   .customdiv2{
     max-width: 100%;
     display: flex;
-    width: 23.7rem;
+    width: 24.7rem;
     margin-top: 20rem;
   }
   .customdiv3{
@@ -1436,7 +1446,7 @@ width: 17.5rem;
 
 @media (max-width:400px){
   .customdiv2{
-    width: 21.8rem;
+    width: 21.6rem;
   }
   .main-title.certi{
     margin-left: 19px;
