@@ -1,4 +1,4 @@
-import right from "../img/right.png"
+
 import { useNavigate } from "react-router-dom";
 function Vision() {
   const navigate = useNavigate();
