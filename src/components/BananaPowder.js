@@ -1,6 +1,7 @@
 import React from 'react'
 import Card from './Card';
 import banana from "../img/banana.png"
+import unripe from "../img/unripe.png"
 import greeenBanana from "../img/gb.png"
 function BananaPowder() {
   const productsData =[
@@ -17,7 +18,7 @@ function BananaPowder() {
       },
       {
         title: "Unripe Banana Powder",
-        img: greeenBanana,
+        img: unripe,
         text: "Unleash natural growth potential with our Unripe Banana Powder! Packed with potassium, it boosts plant growth, enhances soil fertility, and is versatile for all crops. Easy, chemical-free nourishment for a bountiful harvest!"
       },
   ]
