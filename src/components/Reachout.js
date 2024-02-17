@@ -1,5 +1,5 @@
 import React from 'react'
-import reachout from "../img/reachout.png"
+// import reachout from "../img/reachout.png"
 import mail from "../img/mark_email_unread.png"
 import { useNavigate } from 'react-router-dom'
 function Reachout() {

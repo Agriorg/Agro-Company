@@ -1,8 +1,6 @@
 import React from 'react';
 
 import { Link } from 'react-scroll';
-import image from "../img/Image.png";
-import design from "../img/Group 20.png"
 import bg from "../img/Group 22.png"
 function Header() {
 

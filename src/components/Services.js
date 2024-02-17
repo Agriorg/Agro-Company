@@ -4,9 +4,12 @@ import React from "react";
 // import Card from "./Card";
 import MCard from "./mainCard";
 import { useNavigate } from "react-router-dom";
-import egg from "../img/egg.png"
-import on from "../img/onion (2).png"
-import ban from "../img/bananas.png"
+import on from "../img/Eggs_on_bowl_-4-removebg-preview 1.png"
+import egg from "../img/red-onion-removebg-preview 1.png"
+import ban from "../img/18965815-removebg-preview 1.png"
+// import egg from "../img/egg.png"
+// import on from "../img/onion (2).png"
+// import ban from "../img/bananas.png"
 function Services() {
   const navigate = useNavigate();
   const productsData = [
@@ -19,7 +22,7 @@ function Services() {
     {
       title: "Banana Powder",
       img: ban,
-      text: "Elevate your menu with our premium banana powder—a versatile ingredient for culinary innovation.",
+      text: "Elevate your menu with our premium banana powder a versatile ingredient for culinary innovation.",
       route:'/banana-powder',
     },
     {
@@ -36,7 +39,7 @@ function Services() {
 
   const generateProductCards = () => {
     return (
-      <div className="row">
+      <div className="row" >
         {productsData.map((product, index) => (
           <div key={index} className="col-md-4 mb-2" onClick={() => handleCardClick(product.route)}>
 
@@ -49,8 +52,8 @@ function Services() {
   
 
   return (
-    <div className="container services" style={{paddingTop:'60px'}}>
-      <h2 className="main-title text-center" >OUR PRODUCTS</h2>
+    <div className="container services" style={{paddingTop:'60px',marginBottom:'200px'}}>
+      <h2 className="main-title text-center" >Our Products</h2>
       {/* <div className="bg-img">      */}
       <div className="card-cover">
         <div className="col-md-12 ">

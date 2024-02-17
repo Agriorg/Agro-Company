@@ -474,18 +474,23 @@ footer ul li a {
 /* Services */
 .card-title {
   color: #125c13;
-  font-size: 18px;
-  font-weight: 400;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0;
+  padding-top: 5px;
 }
 .p-3 {
   padding: 0.2rem 1rem;
 }
 .card-text {
-  padding: 0;
+  text-align: center;
+  padding: 5px 10px;
+  font-weight: 100;
+  font-size: 13px;
+  color: #8cb800;
   font-weight: 300;
-  font-size: 15px;
-  color: #ffffff;
-  font-weight: 300;
+  border-bottom: 15px;
+  margin: 0;
 
 }
 
@@ -666,7 +671,10 @@ ul li a {
   height: auto;
 }
 .card-brk{
-  height: fit-content;
+  height: 12rem;
+  border-radius: 10px;
+  margin-top: -0rem;
+  background-color: #fbfada;
 }
 
 .sub-container{
@@ -1160,7 +1168,8 @@ width: 17.5rem;
   width: auto;
 }
 .services{
-  height:max-content ;
+
+  height:auto ;
 }
 .reachimg{
   max-width: 100%;
@@ -1418,6 +1427,7 @@ width: 17.5rem;
 
   .main-title {
     font-size: 24px; 
+    font-weight: 900;
     margin-right: 30px;
     margin-left: 30px;
   }

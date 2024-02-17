@@ -1,5 +1,5 @@
 import React from 'react'
-import whatwedo from "../img/whatwedo.png"
+// import whatwedo from "../img/whatwedo.png"
 import frame1 from "../img/Frame 348.png"
 import frame2 from "../img/Frame 349.png"
 import frame3 from "../img/Frame 350.png"
