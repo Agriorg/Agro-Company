@@ -40,7 +40,8 @@
 
 
 
-import next from "../img/next.png";
+// import next from "../img/next.png";
+import next from "../img/arrow_downward_alt.png"
 import { useNavigate } from "react-router-dom";
 function MCard(props) {
   const navigate = useNavigate();
@@ -51,30 +52,31 @@ function MCard(props) {
     <div
       className="card mcard"
       style={{
-        height: "20rem",
+        display:'flex',
+        flexDirection:'column',
+        height: "25rem",
         justifyContent: "center",
-        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.1)",
+        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.2)",
         borderRadius: "10px",
       }}
     >
       <br />
 
-      <div className="text-center">
-        <img alt="card-img" src={props.img} className="text-center img-fluid" style={{ height: "60px", width: '60px', borderRadius: "20px" }} />
+      <div className="text-center img-fluid">
+        <img alt="card-img" src={props.img} className="text-center " style={{ marginTop:'-80px',height: "280px", width: '340px', borderRadius: "20px"}} />
       </div>
       <div className="card-brk">
-
       <div className="text-center" >
-        <h3 className="card-title" style={{ fontSize: '18px', fontWeight: '400', backgroundColor: "#F2FFD9", padding: '5px 10px', borderRadius: '15px' }}>{props.title}</h3>
+        <h3 className="card-title" >{props.title}</h3>
       </div>
       <div className="p-3">
-        <p className="card-text" style={{ fontSize: '15px', color: '#8b8b8b', fontWeight: '300', backgroundColor: "#F2FFD9", padding: '5px 10px', borderRadius: '15px' }}>
+        <p className="card-text" >
           {props.text}
         </p>
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '15px' }}>
           <div style={{ display: 'flex', alignItems: 'center', height: '25px' }}>
-            <a style={{ display: 'flex', alignItems: 'center' }}>Learn More
-              <img src={next} style={{ height: '15px', marginLeft: '10px' }} />
+            <a style={{ display: 'flex', fontWeight:'500',alignItems: 'center',justifyContent:'center',borderRadius:'5px',color:'#ffffff' ,backgroundColor:'#9dc812',width:'16rem',height:'3rem'}}>Learn More
+              <img src={next} style={{ height: '10px', marginLeft: '10px' }} />
             </a>
           </div>
       </div>
