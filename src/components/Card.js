@@ -1,7 +1,7 @@
 // import card from "../img/card1.png"
 function Card(props) {
   return (
-    <div className="card" >
+    <div className="card" style={{backgroundColor:'#fbfada'}}>
       <br />
       
       <div className="text-center">
@@ -11,7 +11,7 @@ function Card(props) {
         <h3 className="card-title">{props.title}</h3>
       </div>
       <div className="p-3">
-        <p className="card-text">
+        <p className="card-text" style={{color:'#1a3129'}}>
            {props.text}
         </p>
       </div>
