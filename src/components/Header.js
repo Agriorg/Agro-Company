@@ -1,14 +1,10 @@
 import React from 'react';
-import { useNavigate } from 'react-router-dom';
+
 import { Link } from 'react-scroll';
 import image from "../img/Image.png";
-
+import design from "../img/Group 20.png"
+import bg from "../img/Group 22.png"
 function Header() {
-  // const navigate = useNavigate();
-
-  // const handleButtonClick = () => {
-  //   navigate('about');
-  // };
 
   return (
     <div className='header'>
@@ -26,7 +22,8 @@ function Header() {
         {/* <button className='headbtn' onClick={handleButtonClick}>Let's Explore</button> */}
       </div>
       <div className='headerimg'>
-        <img src={image} alt="Farmer" className='farmerimg' />
+        {/* <img src={design} className='design1' /> */}
+        <img src={bg} alt="Farmer" className='farmerimg' />
       </div>
     </div>
   );

@@ -1,23 +1,23 @@
 import React from 'react'
-import best from "../img/best-product.png"
-import standard from "../img/standard.png"
-import relation from "../img/friendship.png"
+import task from "../img/task_alt.png"
+import receipt from "../img/receipt_long.png"
+import group from "../img/groups.png"
 import WCard from './WhyCard'
 function Why() {
   const WhyData = [
     {
       title:'bbkb',
-      img: best,
+      img: task,
       text: 'Highest quality standards even at source level',
     },
     {
       title:'bkjk',
-      img: standard,
+      img: receipt,
       text: 'We follow International standards in processing',
     },
     {
       title:'hljh',
-      img: relation,
+      img: group,
       text: 'We believes in having a healthy and long term relationship with its suppliers ',
     },
   ]
@@ -34,9 +34,9 @@ function Why() {
     );
   };
   return (
-    <div className=' container  why'>
-      <h2 className='main-title text-center'>WHY US?</h2>
-      <div className='card-cover'>
+    <div className='  why'>
+      <div className='card-cover' style={{backgroundColor:'#12372a', borderRadius:'0'}}>
+      <h2 className='main-title text-center' style={{color:'#ffffff'}}>Why Us?</h2>
         <div className='col-md-12'>
           {generateWhyCards()}
         </div>

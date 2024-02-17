@@ -13,7 +13,7 @@ function Vision() {
         <div className="row" style={{justifyContent:'center'}}>
           <div className="col-md-6" >
             <div className="customdiv2">
-            <h2 className="main-title text-center about-h2" style={{color:'#e8e1d9',fontSize:'48px',fontWeight:'400',margin:'0'}}>VISION</h2>
+            <h2 className="main-title text-center about-h2" style={{color:'#e8e1d9',fontSize:'48px',fontWeight:'400',margin:'0'}}>Our Vision</h2>
             <p >
             To emerge as the global leader in agricultural goods, establishing the benchmark for quality, innovation, and sustainability, 
             while fostering a positive and meaningful impact within every community along the value chain worldwide.
