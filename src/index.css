@@ -61,9 +61,15 @@ code {
   z-index: 1;
 }
 .img-fluid {
-  max-width: 60%;
+  max-width: 100%;
   width: 100%;
   /* border-radius: .5; */
+}
+.imgw{
+  max-width: 60%;
+  width: 150px;
+  height: 50px;
+  border-radius: 20px;
 }
 .text-center {
   text-align: center;
@@ -495,15 +501,28 @@ footer ul li a {
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
   cursor: pointer;
   border-radius: 10px 10px 5px 5px;
   width: 100%;
   transition: all 0.2s;
-  height: 30rem;
+  height: 25rem;
   background-color: rgba(255, 255, 255,0.5);
-  /* background-color: #FFB534; */
-  /* box-shadow: 12px 12px 5px 5px #e5e5e5; */
-
+}
+.mainlink{
+  display: flex;
+  font-weight: 500;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #9dc812;
+  width: 16rem;
+  height: 3rem;
 }
 .card:hover {
   transform:scale(1.03);
@@ -879,6 +898,12 @@ width: 17.5rem;
   .wrow{
     width: 60rem;
   }
+  .mainlink{
+    width: 13rem;
+  }
+  .imgw{
+    width: 80px;
+  }
   .product{
     height: 66rem;
   }
@@ -940,7 +965,7 @@ width: 17.5rem;
   }
   .farmerimg{
     width: 450px;
-    margin-left: 0;
+    margin-left: 40px;
     height: 420px;
   }
   .main-title.certi{
@@ -1307,8 +1332,13 @@ width: 17.5rem;
     padding:  10px 30px;
 
   }
-  .mcard{
-    /* margin-left: 20px; */
+  .card.mcard{
+   display: flex;
+   flex-direction: column;
+   height: 25rem;
+   justify-content: center;
+   border-radius: 10px;
+   box-shadow: 0 4px 6px rgba(0,0,0,0.2);
   }
 .wcard{
   margin-right: 35px;

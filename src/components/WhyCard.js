@@ -10,7 +10,7 @@ function WCard(props) {
             <div  className =' wcard mcard' style={{justifyContent:'center'}}>
                 <br/>
                 <div className="text-center">
-                    <img alt="card-img" src={props.img} className="text-center img-fluid"   style={{ height: "50px",width:'150px', borderRadius: "20px" }} />
+                    <img alt="card-img" src={props.img} className="text-center imgw"  />
                  </div>
                 {/* <div style={{display:'flex',flexDirection:'column'}}> */}
                     <div className="p-3">

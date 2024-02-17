@@ -51,19 +51,11 @@ function MCard(props) {
   return (
     <div
       className="card mcard"
-      style={{
-        display:'flex',
-        flexDirection:'column',
-        height: "25rem",
-        justifyContent: "center",
-        boxShadow: "0 4px 6px rgba(0, 0, 0, 0.2)",
-        borderRadius: "10px",
-      }}
     >
       <br />
 
-      <div className="text-center img-fluid">
-        <img alt="card-img" src={props.img} className="text-center " style={{ marginTop:'-80px',height: "280px", width: '340px', borderRadius: "20px"}} />
+      <div className="text-center ">
+        <img alt="card-img" src={props.img} className="text-center  img-fluid" style={{ marginTop:'-80px',height: "280px", width: '340px', borderRadius: "20px"}} />
       </div>
       <div className="card-brk">
       <div className="text-center" >
@@ -75,7 +67,7 @@ function MCard(props) {
         </p>
         <div style={{ display: 'flex', justifyContent: 'center', marginTop: '15px' }}>
           <div style={{ display: 'flex', alignItems: 'center', height: '25px' }}>
-            <a style={{ display: 'flex', fontWeight:'500',alignItems: 'center',justifyContent:'center',borderRadius:'5px',color:'#ffffff' ,backgroundColor:'#9dc812',width:'16rem',height:'3rem'}}>Learn More
+            <a className="mainlink" >Learn More
               <img src={next} style={{ height: '10px', marginLeft: '10px' }} />
             </a>
           </div>
