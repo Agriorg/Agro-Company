@@ -52,7 +52,7 @@ function Services() {
   
 
   return (
-    <div className="container services" style={{paddingTop:'60px',marginBottom:'200px'}}>
+    <div className="container services" style={{paddingTop:'60px',marginBottom:'-100px'}}>
       <h2 className="main-title text-center" >Our Products</h2>
       {/* <div className="bg-img">      */}
       <div className="card-cover">
