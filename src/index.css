@@ -1319,7 +1319,7 @@ width: 17.5rem;
   .farmerimg{
     max-width: 100%;
     width: 390px;
-    margin-left: 0;
+    margin-left: -15px;
     height: auto;
     /* margin-right: 60px; */
   }
