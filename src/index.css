@@ -599,7 +599,8 @@ ul li a {
   height: 51px;
   border-radius: 13px;
   border: 0;
-  background-color: #9dc812;
+  font-weight: 600;
+  background-color: #ffffff;
   cursor: pointer;
 }
 .vbtn{
