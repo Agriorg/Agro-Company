@@ -708,8 +708,8 @@ ul li a {
   justify-content: center;
   align-items: center;
   /* margin-top: 15rem; */
-  padding-top: 6rem;
-  margin-bottom:14rem;
+  padding-top: 0rem;
+  margin-bottom:0rem;
 }
 .reach{
   display: flex;
@@ -807,6 +807,9 @@ ul li a {
     /* margin-left: 30px;
     margin-right: 30px; */
     /* width: 12rem; */
+  }
+  .visionm{
+    padding-left: 40px;
   }
   .wcard{
 width: 17.5rem;
@@ -1072,7 +1075,7 @@ width: 17.5rem;
   margin-top: 10px;
  }
  .card-cover{
-  padding-left: 8px;
+  padding-left: 20px;
  }
  .wcard{
   margin-right: 10px;
@@ -1144,6 +1147,12 @@ width: 17.5rem;
 @media (max-width: 576px) { 
   .footer-title{
     font-size: 18px;
+  }
+  .breaker{
+    display: none;
+  }
+  .visionm{
+    padding-left: 10px;
   }
   footer ul li a{
     font-size: 14px;
@@ -1245,7 +1254,7 @@ width: 17.5rem;
   .customdiv2{
     max-width: 100%;
     display: flex;
-    width: 24.7rem;
+    width: 24rem;
     margin-top: 20rem;
   }
   .customdiv3{
@@ -1272,11 +1281,12 @@ width: 17.5rem;
     text-align: center;
     font-size: 20px!important;
   }
+  .headertext{
+    margin-right: 15px;
+  }
 
   .headertext h1{
     display: flex;
-    /* justify-content: center; */
-    /* align-items: center; */
     font-size: 35px;
     margin-left: 15px;
     font-weight: 800;
@@ -1304,8 +1314,9 @@ width: 17.5rem;
   }
   .farmerimg{
     max-width: 100%;
-    width: 400px;
+    width: 390px;
     margin-left: 0;
+    height: auto;
     /* margin-right: 60px; */
   }
   .btn {
