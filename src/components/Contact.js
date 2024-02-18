@@ -85,7 +85,7 @@ function Contact() {
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingTop: '150px', 
+    paddingTop: '0px', 
     height:'800px',
     
   };
