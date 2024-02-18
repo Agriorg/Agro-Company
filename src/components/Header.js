@@ -1,5 +1,4 @@
 import React from 'react';
-
 import { Link } from 'react-scroll';
 import bg from "../img/Group 22.png"
 function Header() {
@@ -17,10 +16,8 @@ function Header() {
         >
           Let's Explore
         </Link>
-        {/* <button className='headbtn' onClick={handleButtonClick}>Let's Explore</button> */}
       </div>
       <div className='headerimg'>
-        {/* <img src={design} className='design1' /> */}
         <img src={bg} alt="Farmer" className='farmerimg' />
       </div>
     </div>

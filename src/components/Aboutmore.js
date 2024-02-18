@@ -53,37 +53,3 @@ function Aboutmore() {
 }
 
 export default Aboutmore
-
-
-
-// <ul className={`${isVisible ? 'fade-in' : ''} what`} ref={aboutRef}>
-//   <li>
-//     <b>Market-Driven Innovation: </b>We innovate by listening
-//     to market needs, ensuring constant improvement.
-//   </li>
-//   <li>
-//     <b>Quality without Compromise: </b>Our products are the
-//     result of unwavering commitment to quality at every step of
-//     the agricultural process.
-//   </li>
-//   <li>
-//     <b>Farmer Empowerment: </b>We support farmers with soil
-//     testing, crop guidance, and sustainable practices for optimal
-//     yields.
-//   </li>
-//   <li>
-//     <b>Continuous Quality Monitoring: </b>We maintain high
-//     standards by monitoring fruit quality throughout the growing
-//     season.
-//   </li>
-//   <li>
-//     <b>Integrity in Agriculture: </b>Quality begins with our
-//     rigorous agricultural processes, ensuring only the best goes
-//     into our products.
-//   </li>
-//   <li>
-//     <b>Environmental Awareness: </b>We keep farmers informed
-//     with government weather forecasts to prepare for climate
-//     change.
-//   </li>
-// </ul> */}
