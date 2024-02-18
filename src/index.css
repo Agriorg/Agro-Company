@@ -586,6 +586,9 @@ ul li a {
 }
 .msv{
   height: 40rem;
+  background-image: url("../src/img/vision\ 2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin-top: 7.3rem;
   padding-top: 15px;
 }
@@ -992,7 +995,7 @@ width: 17.5rem;
   }
   .container.msv{
     margin-top: 300px;
-    margin-bottom: 260px;
+    margin-bottom: -16px;
   }
   
 }
