@@ -1,4 +1,4 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap'); */
+
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @font-face {
   font-family: myfont;
@@ -38,7 +38,6 @@ code {
   opacity: 1!important;
 }
 .container {
-  /* height: auto; */
   width: auto;
   max-width: 1400px;
   padding-right: var(--bs-gutter-x,.75rem);
@@ -52,10 +51,7 @@ code {
   width: 100%;
 }
 .row {
-  /* background-position: center -100px;
-  -webkit-filter: blur(7px); */
   display: flex;
-  /* height: 3rem; */
   align-items: center;
   justify-content: space-between;
   z-index: 1;
@@ -63,7 +59,6 @@ code {
 .img-fluid {
   max-width: 100%;
   width: 100%;
-  /* border-radius: .5; */
 }
 .imgw{
   max-width: 60%;
@@ -98,24 +93,15 @@ code {
   width: 49.9%;
 }
 .col-md-3 {
-  /* margin-top: 3rem; */
   padding-top: 6rem;
   height: 2rem;
-  /* margin: 0 1rem!important; */
   width:100%;
 }
 
 .col-md-4 {
   width:25%;
 }
-.col-md-4:first-child {
-  /* margin-right: 1rem; */
 
-}
-.col-md-4:last-child {
-  /* margin-left: 1rem; */
-
-}
 
 .x {
   margin: 0rem 1rem!important;
@@ -143,7 +129,6 @@ code {
   padding: 0.5rem;
   background-color: #E8E1D9;
   z-index: 2;
-  /* backdrop-filter: blur(2px); */
 }
 .navbar .logo {
   transition: all 0.2s;
@@ -159,9 +144,6 @@ code {
   padding-top: 10px;
 }
 .logoimg{
-  /* margin-top: 25px; */
-  /* background-position: center;
-  background-size: contain; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -178,7 +160,6 @@ code {
 .navbar ul li {
   margin: 0 1rem;
   display: inline-block;
-  /* width: 25rem; */
 }
 .nav-link{
   margin-left: 20rem;
@@ -187,7 +168,6 @@ code {
   transition: all 0.2s;
   font-size: 20px;
   cursor: pointer;
-  /* width: 2rem; */
   text-decoration: none;
   color: #125C13;
   font-weight: 400;
@@ -214,7 +194,6 @@ code {
 .carousel {
   margin-top: 20px;
   max-width: 100%;
-  /* width: fit-content; */
 
 }
 .carousel img{
@@ -244,9 +223,7 @@ code {
   flex-wrap: wrap;
   align-items: center;
   background-color: #f0f0f0;
-  background-image: url('../src/img/landing.png');
-  background-repeat: no-repeat;
-  background-size: cover;
+
 }
 
 .headertext{
@@ -270,7 +247,6 @@ code {
   font-weight: 500;
   margin-top: 0;
   width: 26.688rem;
-  /* padding-left: 25px; */
 }
 .headbtn{
   display: flex;
@@ -295,7 +271,7 @@ code {
   background-image: url("../src/img/Group\ 20.png");
   background-repeat: no-repeat;
   background-position-x:5rem;
-  background-position-y: 0rem;
+  background-position-y: -1rem;
   display: flex;
   justify-content: center;
   flex: 1;
@@ -315,7 +291,6 @@ code {
 main {
   justify-content: center;
   height: auto;
-  /* max-height: 3000px; */
   padding: 0 0 3rem 0;
   background-color: #fafafa;
   width: 100%;
@@ -356,7 +331,7 @@ main {
   align-items: center;
   justify-content: center;
   margin: 60px 60px 0 60px;
-  animation: moveCerti 20s linear infinite;
+  animation: moveCerti forwards 15s linear infinite;
 }
 .cimg{
   height: 160px;
@@ -364,8 +339,7 @@ main {
   justify-content: center;
   align-items: center;
   margin: 60px 60px 0 60px;
-  /* overflow: hidden;  */
-  animation: moveCerti 20s linear infinite ;
+  animation: moveCerti forwards 15s linear infinite ;
 }
 
 @keyframes moveCerti {
@@ -382,7 +356,6 @@ main {
   border-radius: 10px 10px 5px 5px;
   width: 100%;
   padding: 20px;
-  /* width: 21.7rem; */
   height: 100px;
   margin-left: 25px;
   margin-top: 25px;
@@ -634,7 +607,7 @@ ul li a {
 .about {
   /* margin-bottom: 15rem; */
   /* margin-top: 100px; */
-  background-image: url('../src/img/abtbg.png');
+  background-image: url('../src/img/precision-agriculture-machines-in-field\ 1.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1154,6 +1127,9 @@ width: 17.5rem;
   .footer-title{
     font-size: 18px;
   }
+  .multi{
+    display: none;
+  }
   .breaker{
     display: none;
   }
@@ -1191,9 +1167,6 @@ width: 17.5rem;
   height: 100px;
 }
 
-.certi{
-  display: inline-block;
-}
   .container{
     max-width: 576px;
   }
@@ -1407,10 +1380,6 @@ width: 17.5rem;
   .wrow{
     display: inline-block;
     margin-left: 4.5rem;
-  }
-  .certiimg{
-    display: inline-block;
-    margin-left: 60px;
   }
   .cimg{
     height:150px;

@@ -34,15 +34,3 @@ function ProductNav() {
 }
 
 export default ProductNav;
-
-
-
-{/* <li>
-  <Link to="/services" className="nav-link">Our Product</Link>
-</li>
-<li>
-  <Link to="/about" className="nav-link">About</Link>
-</li>
-<li>
-  <Link to="/contact" className="nav-link">Contact</Link>
-</li> */}

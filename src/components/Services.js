@@ -1,15 +1,10 @@
 
-// import {motion, AnimationPresence} from "framer-motion";
 import React from "react";
-// import Card from "./Card";
 import MCard from "./mainCard";
 import { useNavigate } from "react-router-dom";
 import on from "../img/Eggs_on_bowl_-4-removebg-preview 1.png"
 import egg from "../img/red-onion-removebg-preview 1.png"
 import ban from "../img/18965815-removebg-preview 1.png"
-// import egg from "../img/egg.png"
-// import on from "../img/onion (2).png"
-// import ban from "../img/bananas.png"
 function Services() {
   const navigate = useNavigate();
   const productsData = [

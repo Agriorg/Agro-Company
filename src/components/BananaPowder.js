@@ -9,7 +9,6 @@ function BananaPowder() {
         title: "Banana Powder",
         img: banana,
         text:'Transform your crops with the goodness of ripe bananas. Our Premium Banana Powder, sourced from the finest bananas, is a natural and nutrient-packed solution for healthier, thriving plants. Use it as a fertilizer or soil conditioner to promote growth. Elevate your agriculture game with simplicity and sustainability. Order now for a farm-to-jar experience! 🌱🍌',
-        // text: "We manufacture & supply Banana Powder / Green Banana Powder / Unripe Banana powder in large volume for Food Industries, Baby Foods, Pharma Sector & Bakery Industries. It is manufactured by Hot air drying in a dryer and is a very nutritious fruit"
       },
       {
         title: "Green Banana Powder",

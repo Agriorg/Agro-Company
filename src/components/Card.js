@@ -1,4 +1,4 @@
-// import card from "../img/card1.png"
+
 function Card(props) {
   return (
     <div className="card" style={{backgroundColor:'#fbfada'}}>

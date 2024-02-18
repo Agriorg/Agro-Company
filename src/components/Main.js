@@ -16,7 +16,6 @@ function Main() {
         <Vision/>
         <Reachout/>
         <Certificate/>
-        {/* <Contact /> */}
       </main>
     </>
   );

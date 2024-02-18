@@ -1,4 +1,4 @@
-// import right from "../img/right.png"
+
 import { useEffect,useState,useRef } from "react";
 import { useNavigate } from "react-router-dom";
 function About() {

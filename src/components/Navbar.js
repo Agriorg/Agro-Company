@@ -33,18 +33,7 @@ function Navbar() {
     <nav className="navbar">
       <div className="container">
         <div className="row" style={{height:'4rem'}}>
-          {/* <h1 className="logo"> */}
-            {/* <Link
-              spy={true}
-              smooth={true}
-              duration={1000}
-              to='/'
-              style={{ cursor: "pointer", color: "#db3716", fontWeight: "700" }}
-            > */}
               <img src={logo} alt="logo" className="logoimg" />
-              {/* Agri Earth Exports */}
-            {/* </Link> */}
-          {/* </h1> */}
           <ul className="bar">
             <li>
               <Link

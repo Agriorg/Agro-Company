@@ -46,9 +46,6 @@ function Footer() {
               <div className="col-md-3">
                 <p className="footer-title">Contact</p>
                 <ul>
-                  {/* <li>
-                    <Link to="#" >Rushikesh Moholkar </Link>
-                  </li> */}
                   <li>
                     <Link to="#" >A / P - junction, Tal - Indapur, Dist - Pune, Maharashtra - India - 413114</Link>
                   </li>
@@ -69,9 +66,6 @@ function Footer() {
                   <li>
                     <a target="_blank" rel="noreferrer" href="https://x.com/agriearthexport?t=Uy2p2eYBC9gzVQWcWegLfg&s=09" > Twitter</a>
                   </li>
-                  {/* <li>
-                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/burhan-kocada%C4%9F-49a3331a5/"> Linkedin</a>
-                  </li> */}
                 </ul>
               </div>
             </div>
