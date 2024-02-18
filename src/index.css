@@ -292,15 +292,15 @@ code {
   margin-left: 133px;
 }
 .headerimg{
+  background-image: url("../src/img/Group\ 20.png");
+  background-repeat: no-repeat;
+  background-position-x:5rem;
+  background-position-y: 0rem;
   display: flex;
   justify-content: center;
   flex: 1;
-  /* position: sticky; */
   height: 500px;
   width: 448px;
-  /* left: 800px;
-  top: 200px; */
-
 }
 
 .opened {
@@ -855,6 +855,8 @@ width: 17.5rem;
     height: fit-content;
   }
   .container.services{
+    background-image: url("../src/img/Group\ 21.png");
+    background-repeat: no-repeat;
     height: 42.4rem;
   }
   .msv{
@@ -1165,12 +1167,8 @@ width: 17.5rem;
     padding-left: 9px;
   }
   .whatimg{
-    /* display: none; */
     height: 20rem;
   }
-  /* .button-container{
-    margin-top: -190px;
-  } */
 .reachout-button{
   width: 200px;
   padding: 20px 0;
