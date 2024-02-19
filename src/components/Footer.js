@@ -61,6 +61,9 @@ function Footer() {
                 <p className="footer-title">Social Media</p>
                 <ul>
                   <li>
+                    <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/company/agriearthexports/" > Linkedin</a>
+                  </li>
+                  <li>
                     <a target="_blank" rel="noreferrer" href="https://www.instagram.com/agriearthexports/ " > Instagram</a>
                   </li>
                   <li>
